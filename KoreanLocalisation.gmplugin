@@ -1,0 +1,24 @@
+{
+  "name": "KoreanLocalisation",
+  "bundle_version": "1.0",
+  "bundle_description": "Korean IDE localisations",
+  "required": false,
+  "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_Korean",
+  "plugins": [
+    {
+      "plugin_name": "KoreanLocalisation",
+      "localised_name": "korean_localisation",
+      "plugin_version": "1.0",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+            { "Korean": "korean.csv" },
+            {"Korean": "korean_dnd.csv" }
+        ]
+      },
+      "description": "Korean IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ]
+}
