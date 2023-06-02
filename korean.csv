@@ -40,7 +40,6 @@ $mac_LaptopLZoomKey,Left Command,왼쪽 Command,,Mac laptop mode zoom key
 $linux_LaptopLZoomKey,Left Control,왼쪽 Ctrl,,Linux laptop mode zoom key
 Account_Menu_Login,Login,로그인,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,로그아웃,,"Acount menu ""Logout"""
-Account_Menu_ManageAccount,Manage Account,계정 관리,,"Account menu ""Account"""
 AnimationManager_InvalidTransition,The transition specified '{0}' is not valid,지정된 전환 '{0}'이(가) 잘못되었습니다.,,The transition specified in the animation json is not a valid value
 BackgroundLayer_HSpeed,Horizontal Speed,가로 스피드,,Numeric textbox label for horizontal scroll speed
 BackgroundLayer_HTile,Horizontal Tile,가로 타일,,Checkbox label for horizontal tiling
@@ -531,7 +530,7 @@ Inspector_Category_FontOptions,Advanced Options,고급 옵션,,Inspector categor
 Inspector_Category_CanvasFrame,Canvas Frame,캔버스 프레임,,Inspector category
 Inspector_Category_Parent,Parent,상위 항목,,Inspector category
 Inspector_OpenEditor,Open Editor,에디터 열기,,open editor
-Inspector_ObjNoEvents,"This Object currently has no Events.\nAdd Events here or via the editor","이 개체에는 현재 이벤트가 없습니다.\n여기에 또는 편집기를 통해 이벤트 추가",,no object events inspector label
+Inspector_ObjNoEvents,This Object currently has no Events.\nAdd Events here or via the editor,이 개체에는 현재 이벤트가 없습니다.\n여기에 또는 편집기를 통해 이벤트 추가,,no object events inspector label
 Inspector_OpenEditors,Open Editors,에디터 열기,,open multiple editors
 Inspector_Category_Properties,Properties,등록정보,,inspector category
 Inspector_Category_Editors,Editors,에디터,,inspector category
@@ -1405,7 +1404,7 @@ ResourceNode_AddExistingFromLibrary,Add Existing From My Library,내 라이브�
 ResourceNode_AddGroup,Add Group,그룹 추가,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,기본 보기에서 추가,,submenu heading to allow users to select a resource from the default view to add to their user view.
 ResourceNode_RemoveFromView,Remove From Current View,현재 보기에서 제거,,Resource Tree - remove a resource from the current view
-ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","보기 """"{1}""""에서 """"{0}""""을(를) 제거하려고 합니다. 계속하시겠습니까?",,Resource Tree - confirmation of removal from the current view
+ResourceNode_RemoveFromView_Confirm,"You are about to remove ""{0}"" from view ""{1}"". Continue?","보기 ""{1}""에서 ""{0}""을(를) 제거하려고 합니다. 계속하시겠습니까?",,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,생성,,Resource Tree node menu - create resource
 ResourceNode_GMLVisualToScript,Convert to GML Code,GML 코드로 변환,,Resource Tree node menu - GML Visual To GML
 ResourceNode_ScriptToGMLVisual,Convert to GML Visual,GML 비주얼로 변환,,Resource Tree node menu - script to GML Visual
@@ -2378,8 +2377,8 @@ Tutorial_Dock_Title,Tutorial,튜토리얼,,tutorial dock tab title
 Tutorial_FileMissing,Could not find {0},{0}을(를) 찾을 수 없습니다.,,tutorial missing file message
 Tutorial_DisplayNameMissing,Display name must be set,표시 이름을 설정해야 합니다.,,tutorial missing display name message
 Tutorial_PurchaseFailed,Error acquiring tutorial: {0},튜토리얼을 가져오는 중 오류 발생: {0},,tutorial purchase error message
-Tutorial_CreateInfo,Add content to Included Files "TutorialContent" folder,콘텐츠를 포함된 파일 "TutorialContent" 폴더에 추가,,tutorial package create info label
-Tutorial_CreateInfo2,Add files for the user to import to Included Files "TutorialResources" folder,사용자가 포함된 파일 "TutorialResources" 폴더로 가져올 수 있도록 파일을 추가합니다.,,tutorial package create info label
+Tutorial_CreateInfo,"Add content to Included Files ""TutorialContent"" folder","콘텐츠를 포함된 파일 ""TutorialContent"" 폴더에 추가",,tutorial package create info label
+Tutorial_CreateInfo2,"Add files for the user to import to Included Files ""TutorialResources"" folder","사용자가 포함된 파일 ""TutorialResources"" 폴더로 가져올 수 있도록 파일을 추가합니다.",,tutorial package create info label
 Tutorial_UpdateAvailableNotification,Update Available: {0},업데이트 사용 가능: {0},,tutorial package update available notification
 Demo_PurchaseFailed,Error Acquiring Demo: {0},데모를 가져오는 중 오류 발생: {0},,demo purchase error message
 Demo_Download_Error,Error Downloading Demo: '{0}',데모를 다운로드하는 중 오류 발생: '{0}',,demo download error
@@ -2565,7 +2564,7 @@ ggs_foldername,Folder Name,폴더 이름,,Name of Folder
 ggs_outputname,Output Name,출력 이름,,Output Name
 ggs_output_debug_to_console,Output debug to console,콘솔에 디버그 출력,,Output Debug to Console
 ggs_generate_spotify_app,Generate Spotify App,Spotify 앱 생성,,Generate Spotify App
-ggs_display_outside_server_alert,Display "Running outside server" alert,"서버 밖에서 실행 중" 경고 표시,,Display the running outside of server alert
+ggs_display_outside_server_alert,"Display ""Running outside server"" alert","""서버 밖에서 실행 중"" 경고 표시",,Display the running outside of server alert
 ggs_prepend_js,Prepend output .js with,출력 앞에 .js 추가,,Prepend output .js with
 ggs_installer_background,Installer Background,인스톨러 배경,,Installer Background
 ggs_icon,Icon,아이콘,,Icon
@@ -3052,7 +3051,7 @@ GMLVisual_Pref_ChainSmoothness,The smoothness of the chain.,체인의 부드러�
 GMLVisual_Pref_DragTime,Mouse down time to start dragging node (ms),노드 끌기를 시작하는 데 걸리는 마우스 누르기 시간(ms),,GML Visual™ pref
 GMLVisual_Pref_CommentStyle,Comment text style,주석 텍스트 스타일,,GML Visual™ pref
 GMLVisual_Message_Error_Prefix,ERROR:,오류:,,GML Visual™ message prefix
-GMLVisual_Message_InvalidSyntaxError,The "{0}" node is causing an invalid program flow. Move it to a correct location.,"{0}" 노드가 잘못된 프로그램 플로우를 발생시키고 있습니다. 해당 노드를 올바른 위치로 이동하십시오.,,GML Visual message syntax error
+GMLVisual_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.","""{0}"" 노드가 잘못된 프로그램 플로우를 발생시키고 있습니다. 해당 노드를 올바른 위치로 이동하십시오.",,GML Visual message syntax error
 GMLVisual_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,잘못된 삽입,,GML Visual™ pop up title for below message
 GMLVisual_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,{0}을(를) 이 위치에 삽입하면 프로그램이 잘못됩니다.,,GML Visual™ pop up message for invalid syntax insertion
 ggs_webserver_port,Web Server Port,웹 서버 포트,,Webserver Port
@@ -4733,8 +4732,8 @@ INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},파일 경로가 너무 
 INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,포함된 파일에 잘못된 이름이 있음,,Invalid included file name dialog box title
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.","하나 이상의 포함된 파일에 잘못된 파일 이름이 있습니다. a~z, A~Z, 0~9, _ 또는 .만 포함되어야 합니다.\n리스트를 보려면 출력 패널을 참조하십시오.",,Invalid included file name dialog box message
 INVALID_INCLUDEDFILE_NAME,Included file with invalid filename: '{0}',잘못된 파일 이름이 있는 포함된 파일: '{0}',,Invalid Included file name output message
-Validate_InvalidFilename,"'{0}' contains invalid filename characters","'{0}'에 잘못된 않은 파일 이름 문자가 포함되어 있습니다.",,Rename message
-InvalidIncludedFileName_Digit,"'{0}' starts with a number. Various platforms do not support this","'{0}'이(가) 숫자로 시작합니다. 여러 플랫폼에서 이를 지원하지 않습니다.",,Invalid Included File starting with a digit
+Validate_InvalidFilename,'{0}' contains invalid filename characters,'{0}'에 잘못된 않은 파일 이름 문자가 포함되어 있습니다.,,Rename message
+InvalidIncludedFileName_Digit,'{0}' starts with a number. Various platforms do not support this,'{0}'이(가) 숫자로 시작합니다. 여러 플랫폼에서 이를 지원하지 않습니다.,,Invalid Included File starting with a digit
 roomeditor_selectioncolour,Selection frame colour,선택 프레임 색상,,preference name for the selection frame colour for unlocked items in the room editor
 roomeditor_selectionlockedcolour,Locked selection frame colour,잠긴 선택 프레임 색상,,preference name for the selection frame colour for locked items in the room editor
 roomeditor_propertiescolour,Properties frame colour,등록정보 프레임 색상,,preference name for the properties frame colour for unlocked items in the room editor
@@ -5163,7 +5162,7 @@ FontEditor_ReplacementGlyphError,Using symbols not found in font (?),글꼴에�
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts,이 글꼴에 하나 이상의 기호가 누락되었으며 다른 글꼴로 대체됩니다.,,Tooltip
 FontEditor_MissingFontError,Font is not available on this machine (?),이 머신에 글꼴을 사용할 수 없음 (?),,This font is not available on this machine
 FontEditor_MissingFontError_Tooltip,Verify that the font is installed on your machine and try again,글꼴이 머신에 설치되었는지 확인한 후 다시 시도하십시오.,,This font is not available on this machine tooltip
-Font_TooLargeTexPage,Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.,글꼴 ""{0}""에 텍스처 페이지에서 맞출 수 있는 것보다 더 많은 문자가 들어 있습니다. 일부 문자는 표시되지 않습니다.,,Font too large for texture page warning dialog
+Font_TooLargeTexPage,"Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.","글꼴 ""{0}""에 텍스처 페이지에서 맞출 수 있는 것보다 더 많은 문자가 들어 있습니다. 일부 문자는 표시되지 않습니다.",,Font too large for texture page warning dialog
 Event_Gesture,Gesture,제스처,,Gesture event name
 Event_Gesture_Global,Global,전 세계,,Gesture event subtype
 Event_Gesture_Tap,Tap,탭,,Tap gesture event name
@@ -5354,7 +5353,7 @@ ggs_windowsuap_xbox_live_scid,Service Configuration ID,서비스 구성 ID,,The 
 Proxy_Settings,Proxy Settings,프록시 설정,,Proxy settings window title
 Proxy_Address,Proxy,프록시,,proxy address label
 Proxy_Address_Tooltip,Proxy address and port (http://address:port),프록시 주소 및 포트(http://address:port),,proxy address tooltip
-Proxy_Address_Error,Error proxy must using "http://address:port" format,프록시 오류. "http://address:port" 형식을 사용해야 합니다.,,proxy format error message
+Proxy_Address_Error,"Error proxy must using ""http://address:port"" format","프록시 오류. ""http://address:port"" 형식을 사용해야 합니다.",,proxy format error message
 Proxy_Error_Title,Error: Invalid proxy setting,오류: 잘못된 프록시 설정,,proxy error window title
 Proxy_Username,Username,사용자 이름,,proxy username label
 Proxy_Username_Tooltip,Proxy username,프록시 사용자 이름,,proxy username tooltip
@@ -5477,7 +5476,7 @@ Pref_Visual_Studio_Path,Visual Studio Path,Visual Studio 경로,,Visual Studio P
 ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)","공유 오버레이(128x128, 64x64, 256x128, 256x64)",,Share Overlay image for playstation 4 caption
 Button_Preview,Preview,미리보기,,Preview button caption
 Main,Main,기본,,Main option group subheading
-Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds','d' 일 'h' 시간 'm' 분 's' 초,"Do not change d,h,m or s as these are formatting tags",time format to display in run timer
+Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d' 일 'h' 시간 'm' 분 's' 초',"Do not change d,h,m or s as these are formatting tags",time format to display in run timer
 Device_Manager_Platform,Platform,플랫폼,,Platform selector title for device manager
 Server,Server,서버,,Server preference group subheading
 Console,Console,콘솔,,Console preference group subheading
@@ -5615,7 +5614,7 @@ SyntaxError_VariableReferenceOnce,variable {0} only referenced once,변수 {0}�
 SyntaxError_VariableUnassigned,unassigned variable {0} referenced,할당되지 않은 변수 {0}을(를) 참조함,,syntax error
 SyntaxError_ConstructorsOnly,only functions that are declared as constructors can use inheritance.,생성자로 선언된 함수만 상속을 사용할 수 있습니다.,,syntax error
 SyntaxError_InvalidFunctionModifier,unknown function atribute {0},알 수 없는 함수 속성 {0},,syntax error
-SyntaxError_InheritedFunctionArguments,Inherited argument "{0}" is not in function arguments,상속된 인수 "{0}"이(가) 함수 인수에 없음,,syntax error
+SyntaxError_InheritedFunctionArguments,"Inherited argument ""{0}"" is not in function arguments","상속된 인수 ""{0}""이(가) 함수 인수에 없음",,syntax error
 SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,명명된 인수 16개만 함수 선언에서 지원됨,,syntax error
 SyntaxError_AssignmentToBuiltIn,Assignment to builtin variable/function/constant,내장된 변수/함수/상수에 할당,,syntax error
 CompileError_Info,{0} at line {1} : {2},줄 {1}의 {0} : {2},,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
@@ -6457,7 +6456,7 @@ ACL_elastic,Elastic,탄성,,anim curve library curve name
 ACL_bounce,Bounce,반동,,anim curve library curve name
 ACL_fastOutSlowIn,Fast To Slow,빨랐다가 느리게,,anim curve library curve name
 ACL_slowMiddle,Mid Slow,중간 느림,,anim curve library curve name
-ACL_ResetTip,Select "Reset" to revert curve to initial state.,"다시 설정"을 선택하여 곡선을 초기 상태로 되돌립니다.,,anim curve library reset tip
+ACL_ResetTip,"Select ""Reset"" to revert curve to initial state.","""다시 설정""을 선택하여 곡선을 초기 상태로 되돌립니다.",,anim curve library reset tip
 assetbrowser_defaultfolders,Create default folders in new project,새 프로젝트에서 기본 폴더 생성,,create default folders
 assetbrowser_maxrecentlyedited,Maximum recently edited items,최근에 편집한 항목 최대 수,,max recently edited count
 assetbrowser_palette_entry_count,Colour palette size,색상표 크기,,colour palette entry count
@@ -6568,8 +6567,8 @@ ggs_top_shelf_wide_2x,Top Shelf Image Wide 2x,Top Shelf 이미지 와이드 2x,,
 ggs_icon_400_2x,400x240 Icon 2x,400x240 아이콘 2x,,400x240 Icon 2x
 ggs_splash_screen_2x,Splash Screen Image 2x,스플래시 화면 이미지 2x,,Splash Screen Image 2x
 ggs_xboxone_stats_system,Stats configuration system,통계 구성 시스템,,Stats configuration system
-ggs_xboxone_stats_2017,Title-Managed Stats ("Stats 2017"),Title-Managed Stats ("Stats 2017"),,the radio group option for 2017 stats
-ggs_xboxone_stats_2013,Event-Based Stats ("Stats 2013"),Event-Based Stats ("Stats 2013"),,the radio group option for 2013 stats
+ggs_xboxone_stats_2017,"Title-Managed Stats (""Stats 2017"")","Title-Managed Stats (""Stats 2017"")",,the radio group option for 2017 stats
+ggs_xboxone_stats_2013,"Event-Based Stats (""Stats 2013"")","Event-Based Stats (""Stats 2013"")",,the radio group option for 2013 stats
 ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,2013 시스템은 Microsoft에서 단종되었으며 이미 개발 중인 제목에만 사용해야 합니다. \n2017 시스템에는 서비스 매니페이스가 더 이상 필요하지 않습니다. \n자세한 내용은 Microsoft 문서를 참조하십시오.,,tooltip for the stats sytem radio group
 Error_ResourceLoadFailures_Message,Resource load failures encountered...,리소스 로드 실패 발생...,,non-blocking errors have occurred message
 Error_ResourceFailedToLoad,Failed to load {0},{0} 로드 실패,,Failed to load given resource
@@ -6614,7 +6613,7 @@ Convert_Success_Message,The Project has successfully converted,프로젝트가 �
 Convert_Failed_Title,Conversion Failed,변환 실패,,Project Conversion failed title
 Convert_Failed_Message,The Project conversion has failed,프로젝트 변환에 실패했습니다.,,Project Conversion failed message
 Convert_SameFolderMessage,You cannot save the converted project to the same folder as the original. Please select a new location.,변환된 프로젝트를 원본과 같은 폴더에 저장할 수 없습니다. 새 위치를 선택하십시오.,,convert same folder dont do it message
-exception_faq_button_caption,"To see what data this report contains, <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>""","어떤 데이터가 이 보고서에 포함되는지 확인하려면 <a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"">여기를 클릭</a>""하십시오.",,exception faq button caption
+exception_faq_button_caption,"To see what data this report contains, <a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">click here</a>","어떤 데이터가 이 보고서에 포함되는지 확인하려면 <a href=""https://help.yoyogames.com/hc/en-us/articles/360028120992"">여기를 클릭</a>하십시오.",,exception faq button caption
 exception_fatal_error_header_caption,A fatal exception has occurred in GameMaker and the program needs to close.\n\nWe are sorry for the inconvenience.,GameMaker에서 심각한 예외가 발생했으며 프로그램을 종료해야 합니다.\n\n불편함을 드려 죄송합니다.,,exception fatal error header caption
 exception_problem_header_caption,Please tell us about this problem.,이 문제에 대해 알려 주십시오.,,exception problem header caption
 exception_blurb,"An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.",이 문제를 검토하고 유사한 문제를 방지하기 위한 오류 보고서가 생성되었습니다. 이 이벤트의 맥락과 관련된 추가 세부 정보를 알려 주시면 큰 도움이 될 것입니다. 특히 직전에 어떤 작업을 하고 있었는지 알려 주십시오.\n\n중요\n보내기를 누르면 당사의 개인 정보 보호 정책에 따라 아래의 세부 데이터를 당사가 처리하는 데 동의하는 것으로 간주됩니다.,,exception blurb
@@ -6658,8 +6657,8 @@ Category_SoundInfo,Sound Information,사운드 정보,,inspector category label
 Category_InstanceInfo,Instance Information,인스턴스 정보,,inspector category label
 Category_SequenceInfo,Sequence Information,시퀀스 정보,,inspector category label
 GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,// v2.3.0에 대한 스크립트 어셋 변경됨 자세한 정보는\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 참조,,default script comment
-GMScript_DnDBoilerPlate,/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},,GML Boiler plate for a new script
-GMScript_DnDFuncDecl,/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n},,GML function declaration template
+GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
+GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
 AssetBrowser_CreateLotsOfResourcesWarning,Do you want to create {0} Assets?,에셋 {0}개를 생성하시겠습니까?,,label to warn user they are about to create a lot of resources
 AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,에셋을 너무 많이 생성하려고 함,,title for warning dialog box
 YoYoImage_UnknownFileFormat,Image format not recognised,이미지 형식이 인식되지 않음,,This image format was not recognised
@@ -6701,7 +6700,7 @@ SourceControl_Checkout_Warning,Couldn't perform checkout. Please check Source Co
 SourceControl_Log_Warning,Couldn't retrieve log. Please check Source Control Output for more information,로그를 검색할 수 없습니다. 자세한 내용은 소스 제어 출력을 확인하십시오.,,Warning for git log failure.
 SourceControl_Create_Warning,Couldn't create repository. Please check Source Control Output for more information,저장소를 생성할 수 없습니다. 자세한 내용은 소스 제어 출력을 확인하십시오.,,Warning for git create failure.
 SourceControl_Merge_Warning,Couldn't complete merge operation. Please check Source Control Output for more information,병합 작업을 완료할 수 없습니다. 자세한 내용은 소스 제어 출력을 확인하십시오.,,Warning for git merge failure.
-exception_legal_blurb,"Our <a href="https://www.yoyogames.com/legal/privacy">Privacy Policy</a> and <a href="https://www.yoyogames.com/legal/cookies">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>\n\nForm version: "," 귀하의 데이터를 수집, 저장, 처리하는 방식을 관리합니다. 시간을 내어 정책 내용을 반드시 꼼꼼히 읽어보시기 바랍니다.\n\n동의 철회 권리: 귀하는 언제든지 동의를 철회할 수 있는 권리가 있습니다. 동의를 철회하려면 당사의 <a href="https://www.yoyogames.com/legal/privacy">개인 정보 보호 정책</a> 및 <a href="https://www.yoyogames.com/legal/cookies">쿠키 정책</a>은 당사가	 귀하의 데이터를 수집, 저장, 처리하는 방식을 관리합니다. 시간을 내어 정책 내용을 반드시 꼼꼼히 읽어보시기 바랍니다.\n\n동의 철회 권리: 귀하는 언제든지 동의를 철회할 수 있는 권리가 있습니다. 동의를 철회하려면	 환경 설정 센터를 통해	 또는 헬프데스크에 티켓을 로깅하여 이를 수행할 수 있습니다.\n\n당사의 데이터 사용에 대해 문의 사항이 있을 경우	 <a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>의 데이터 관리자에게 이메일을 보내십시오.\n\n양식 버전: ",,exception legal blurb
+exception_legal_blurb,"Our <a href=""https://www.yoyogames.com/legal/privacy"">Privacy Policy</a> and <a href=""https://www.yoyogames.com/legal/cookies"">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>\n\nForm version: "," 귀하의 데이터를 수집, 저장, 처리하는 방식을 관리합니다. 시간을 내어 정책 내용을 반드시 꼼꼼히 읽어보시기 바랍니다.\n\n동의 철회 권리: 귀하는 언제든지 동의를 철회할 수 있는 권리가 있습니다. 동의를 철회하려면 당사의 <a href=""https://www.yoyogames.com/legal/privacy"">개인 정보 보호 정책</a> 및 <a href=""https://www.yoyogames.com/legal/cookies"">쿠키 정책</a>은 당사가	 귀하의 데이터를 수집, 저장, 처리하는 방식을 관리합니다. 시간을 내어 정책 내용을 반드시 꼼꼼히 읽어보시기 바랍니다.\n\n동의 철회 권리: 귀하는 언제든지 동의를 철회할 수 있는 권리가 있습니다. 동의를 철회하려면	 환경 설정 센터를 통해	 또는 헬프데스크에 티켓을 로깅하여 이를 수행할 수 있습니다.\n\n당사의 데이터 사용에 대해 문의 사항이 있을 경우	 <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>의 데이터 관리자에게 이메일을 보내십시오.\n\n양식 버전: ",,exception legal blurb
 Button_Search,Search,검색,,search button label
 Inspector_Category_Nineslice,Nine Slices,9 슬라이스,,Inspector category
 Inspector_Field_WidthC,W:,W:,,inspector field label
@@ -6792,10 +6791,10 @@ WebAssembly,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
 Wasm,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
 Opera GX,GX.games,GX.games,DO NOT TRANSLATE,Opera GX preference group subheading
 Options_PS5ToolsSetupError,PlayStation 5 Tools Missing,PlayStation 5 Tools 없음,,error dialog title when unable to find a ps5 tool
-Options_PS5ToolsSetupTrophyMessage,"Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0}","PlayStation 5 트로피 에디터를 찾을 수 없음.\n도구 디렉토리를 업데이트하십시오.\n{0}",,error message when failed to find the trophy editor
+Options_PS5ToolsSetupTrophyMessage,Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0},PlayStation 5 트로피 에디터를 찾을 수 없음.\n도구 디렉토리를 업데이트하십시오.\n{0},,error message when failed to find the trophy editor
 Options_PS5ToolsPreference,Go to PlayStation 5 settings,PlayStation 5 설정으로 가기,,button message to take user to PS5 preferences
-Options_PS5ToolsSetupParamSFOMessage,"Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0}","PlayStation 5 param.sfo 에디터를 찾을 수 없음.\n도구 디렉토리를 업데이트하십시오.\n{0}",,error message when failed to find the param.sfo editor
-Options_PS5ToolsSetupShareParamMessage,"Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0}","PlayStation 5 공유 파일 에디터를 찾을 수 없음.\n도구 디렉토리를 업데이트하십시오.\n{0}",,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupParamSFOMessage,Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0},PlayStation 5 param.sfo 에디터를 찾을 수 없음.\n도구 디렉토리를 업데이트하십시오.\n{0},,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupShareParamMessage,Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0},PlayStation 5 공유 파일 에디터를 찾을 수 없음.\n도구 디렉토리를 업데이트하십시오.\n{0},,error message when failed to find the param.sfo editor
 SyntaxError_SameArgument,argument name {0} already used in function declaration,인수 이름 {0} 함수 선언에 이미 사용됨,,syntax error
 ConfigurationProblem_PS5SDK,Configuration Problem : PS5 SDK not found. Check your Preferences.,구성 문제 : PS5 SDK를 찾을 수 없습니다. 기본 설정을 확인하십시오.,,Configuration Problem : PS5 SDK not found. Check your Preferences.
 ConfigurationProblem_PS5Tools,Configuration Problem : PS5 Tools directory not found. Check your Preferences.,구성 문제 : PS5 Tools 디렉토리를 찾을 수 없습니다. 기본 설정을 확인하십시오.,,Configuration Problem : PS5 Tools directory not found. Check your Preferences.
@@ -6913,10 +6912,10 @@ ROOM_EFFECTS_filter_whitenoise,White Noise,백색 노이즈,,white noise filter 
 ROOM_EFFECTS_Animation,Animation,애니메이션,,animation param name
 SoundMixer_LoadAudioGroup,Load Audio Group:,오디오 그룹 로드:,,Sound Mixer Load Audio Group label
 SoundEditor_OggLabel,Conversion (for OGG only):,변환(OGG만 해당):,,Ogg conversion option
-SourceControlConflictsDetectedOnLoad,"There are conflicts within this project. If you continue loading, it may be broken. It is recommended to resolve the git conflicts before. Are you sure you wish to continue loading?","이 프로젝트 내에 충돌이 있습니다. 로드를 계속하면 손상될 수 있습니다. 이전에 git 충돌을 해결하는 것이 좋습니다. 로드를 계속하시겠습니까?",,Conflicts Detected message on opening a project
+SourceControlConflictsDetectedOnLoad,"There are conflicts within this project. If you continue loading, it may be broken. It is recommended to resolve the git conflicts before. Are you sure you wish to continue loading?",이 프로젝트 내에 충돌이 있습니다. 로드를 계속하면 손상될 수 있습니다. 이전에 git 충돌을 해결하는 것이 좋습니다. 로드를 계속하시겠습니까?,,Conflicts Detected message on opening a project
 TextureGroups_CompressBZ2,BZ2 Compress,BZ2 압축,,Texture group compression checkbox label
 UserLogin_OperaAccount,Opera Account,Opera 계정,,opera account
-UserLogin_OperaLoginInfo,"Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked","Opera 계정을 사용하여 YoYo 계정에 로그인하십시오.\n두 계정이 모두 링크되어 있어야 합니다.",,opera login info text
+UserLogin_OperaLoginInfo,Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked,Opera 계정을 사용하여 YoYo 계정에 로그인하십시오.\n두 계정이 모두 링크되어 있어야 합니다.,,opera login info text
 UserLogin_LinkAccountsAt,Link your accounts at,다음에 계정 링크,,link accounts info label
 UserLogin_OperaSSO,Opera Single Sign-In,Opera 싱글 사인온,,single sign in button label
 UserLogin_ForgottenPassword,Forgotten password?,비밀번호를 분실했습니까?,,login forgotten password label
@@ -6945,7 +6944,7 @@ ggs_template_desc,Description,설명,,project template description
 mytemplateprojectslocation,Template Projects directory,템플릿 프로젝트 디렉토리,,user Template Projects location setting
 pref_laptop_mode,Force Laptop mode,노트북 모드 강제 실행,,Preference to force the laptop mode on or off
 ggs_game_guid_change_confirmation,Are you sure to change the GUID?,GUID를 변경하시겠습니까?,,Confirmation of changing the game GUID
-Project_Changes_OnRepairing,"The project files were corrupted. The changes were applied. Do you want to save the changes?","프로젝트 파일이 손상되었습니다. 변경 사항이 적용되었습니다. 변경 사항을 저장하시겠습니까?",,Project was corrupted and changed by the IDE to fix it
+Project_Changes_OnRepairing,The project files were corrupted. The changes were applied. Do you want to save the changes?,프로젝트 파일이 손상되었습니다. 변경 사항이 적용되었습니다. 변경 사항을 저장하시겠습니까?,,Project was corrupted and changed by the IDE to fix it
 operagx_synchronized,Synchronizing with Opera GX...,Opera GX와 동기화 중...,,Output Message on starting synchronizing with OperaGX
 operagx_failed_to_refresh_token,failed to refresh token... logout of GameMaker and login again,토큰 새로 고침에 실패했습니다... GameMaker에서 로그아웃 후 다시 로그인하십시오,,Output Message tracking Packaging for OperaGX process
 operagx_out_compilationbeforeupload_failed,Compilation failed. GXC upload cancelled. See the console output and the compile errors.,컴파일에 실패했습니다. GXC 업로드가 취소되었습니다. 콘솔 출력 및 컴파일 오류를 참조하십시오.,,"Output Message to show then the compilation failed in the ""OperaGX Packaging"" window"
@@ -6957,7 +6956,7 @@ opera_sync_empty_guid,The GUID is empty. The project will be registered on GXC a
 opera_sync_syncronization_on,Synchronization...,동기화...,,Synchronization button label during synchronization process
 opera_sync_synchronize,Synchronize,동기화,,Synchronization button label when the user is logged in
 opera_sync_signin_and_synchronize,Sign-in and synchronize,로그인 및 동기화,,Synchronization button label when the user is not logged in
-opera_sync_guid_valid,"With the GUID provided, you may change the game settings only on GXC","제공된 GUID로는 GXC에서만 게임 설정을 변경할 수 있습니다",,Tip for the user for a valid GUID
+opera_sync_guid_valid,"With the GUID provided, you may change the game settings only on GXC",제공된 GUID로는 GXC에서만 게임 설정을 변경할 수 있습니다,,Tip for the user for a valid GUID
 opera_sync_guid_not_valid_format,GUID format is not valid,GUID 형식이 유효하지 않습니다,,Tip for an invalid GUID
 opera_sync_incorrect_data,Incorrect data. Check the output,데이터가 부정확합니다. 출력 확인,,Incorrect data warning message
 xbox_package_xbone,Xbox One package,Xbox One 패키지,,Package built for Xbox One consoles
@@ -6974,18 +6973,18 @@ StartScreen_TourIntro_Desc1,The START page is where you can access all you need 
 StartScreen_TourIntro_DescA,Hover over any of the below areas marked with a,다음으로 표시된 아래 영역 중 하나에 마우스를 가져가십시오,,start screen tour label
 StartScreen_TourIntro_DescB,to find out more and explore.,그러면 자세히 알아보고 탐색할 수 있습니다.,,start screen tour label
 StartScreen_TourIntro_Desc2,Hover over any of the below areas marked with a   #   to find out more and explore., #   (으)로 표시된 아래 영역 중 하나에 마우스를 가져가십시오. 그러면 자세히 알아보고 탐색할 수 있습니다.,,format test
-StartScreen_TourTitle_1,"""New Project""","“새 프로젝트”",,start screen tour label
-StartScreen_TourTitle_2,"""Open Project""","“프로젝트 열기”",,start screen tour label
-StartScreen_TourTitle_3,"""Import Project""","“프로젝트 가져오기”",,start screen tour label
-StartScreen_TourTitle_4,"""Tutorials""","“튜토리얼”",,start screen tour label
-StartScreen_TourTitle_5,"""Recent Projects""","“최근 프로젝트”",,start screen tour label
+StartScreen_TourTitle_1,"""New Project""",“새 프로젝트”,,start screen tour label
+StartScreen_TourTitle_2,"""Open Project""",“프로젝트 열기”,,start screen tour label
+StartScreen_TourTitle_3,"""Import Project""",“프로젝트 가져오기”,,start screen tour label
+StartScreen_TourTitle_4,"""Tutorials""",“튜토리얼”,,start screen tour label
+StartScreen_TourTitle_5,"""Recent Projects""",“최근 프로젝트”,,start screen tour label
 StartScreen_SkipTourWiz,SKIP to Setup Wizard,설정 마법사로 건너뛰기,,start screen tour label
 StartScreen_SkipTour,SKIP Tour,투어 건너뛰기,,start screen skip tour label
-StartScreen_TourDesc_1,"Start from scratch with a new empty project or start from a template; one we've included or one of your own","비어 있는 새 프로젝트로 처음부터 시작하거나 템플릿(저희가 포함하거나 자신이 보유한 템플릿 중 하나)을 사용하여 시작하십시오",,start screen tour label
-StartScreen_TourDesc_2,"Open a project you've already started and continue from when your last saved","이미 시작한 프로젝트를 열고 마지막으로 저장한 시점부터 계속하십시오",,start screen tour label
-StartScreen_TourDesc_3,"Import a project that has previously been exported or is from a legacy version of GameMaker","이전에 내보냈거나 GameMaker의 레거시 버전에 있는 프로젝트를 가져오십시오",,start screen tour label
-StartScreen_TourDesc_4,"Browse all of the available tutorials through your web browser","웹 브라우저를 통해 사용 가능한 모든 튜토리얼을 탐색하십시오",,start screen tour label
-StartScreen_TourDesc_5,"An area that will display all of the projects you have opened recently, it may be easier to select your project from here instead of using the 'Open' button above, if you are reopening a project that you were working on recently","이 영역은 최근에 연 모든 프로젝트가 표시되는 영역입니다. 최근에 작업한 프로젝트를 다시 여는 경우 위의 '열기' 버튼을 사용하는 대신 여기에서 프로젝트를 선택하는 것이 더 쉬울 수 있습니다.",,start screen tour label
+StartScreen_TourDesc_1,Start from scratch with a new empty project or start from a template; one we've included or one of your own,비어 있는 새 프로젝트로 처음부터 시작하거나 템플릿(저희가 포함하거나 자신이 보유한 템플릿 중 하나)을 사용하여 시작하십시오,,start screen tour label
+StartScreen_TourDesc_2,Open a project you've already started and continue from when your last saved,이미 시작한 프로젝트를 열고 마지막으로 저장한 시점부터 계속하십시오,,start screen tour label
+StartScreen_TourDesc_3,Import a project that has previously been exported or is from a legacy version of GameMaker,이전에 내보냈거나 GameMaker의 레거시 버전에 있는 프로젝트를 가져오십시오,,start screen tour label
+StartScreen_TourDesc_4,Browse all of the available tutorials through your web browser,웹 브라우저를 통해 사용 가능한 모든 튜토리얼을 탐색하십시오,,start screen tour label
+StartScreen_TourDesc_5,"An area that will display all of the projects you have opened recently, it may be easier to select your project from here instead of using the 'Open' button above, if you are reopening a project that you were working on recently",이 영역은 최근에 연 모든 프로젝트가 표시되는 영역입니다. 최근에 작업한 프로젝트를 다시 여는 경우 위의 '열기' 버튼을 사용하는 대신 여기에서 프로젝트를 선택하는 것이 더 쉬울 수 있습니다.,,start screen tour label
 StartScreen_ChooseTemplate,CHOOSE YOUR TEMPLATE,테마을 선택하십시오,,start screen label
 StartScreen_SelectTemplate,Please select a project template,프로젝트 템플릿을 선택하십시오,,start screen label
 StartScreen_RecentProjects,RECENT PROJECTS,최근 프로젝트,,start screen label
@@ -7000,9 +6999,9 @@ SS_ProjectLocationLabel,Location:,위치:,,start screen project location label
 SS_ProjDirInUse,Project directory name already exists,프로젝트 디렉토리 이름이 이미 있습니다,,proj dir in use warning
 StartScreen_WizardTitle,Set Up Wizard,설정 마법사,,setup wizard title
 SS_WizardStepNum,Step {0} of {1},{0}/{1}단계,,setup wizard label
-SS_Wizard_StepDesc_1,"Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.","첫 번째 프로젝트 설정을 시작하겠습니다.\n먼저 아래의 '새 항목' 버튼을 클릭하십시오.",,setup wizard label
-SS_Wizard_StepDesc_2,"Select a template below, or choose BLANK to start a fresh new project","아래에서 템플릿을 선택하거나 ‘빈 항목’을 선택하여 새 프로젝트를 시작하십시오.",,setup wizard label
-SS_Wizard_StepDesc_3,"Give your project a name, choose a save location, and just jump right in!","프로젝트 이름을 지정하고 저장 위치를 ​​선택한 다음 바로 시작하십시오!",,setup wizard label
+SS_Wizard_StepDesc_1,"Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.",첫 번째 프로젝트 설정을 시작하겠습니다.\n먼저 아래의 '새 항목' 버튼을 클릭하십시오.,,setup wizard label
+SS_Wizard_StepDesc_2,"Select a template below, or choose BLANK to start a fresh new project",아래에서 템플릿을 선택하거나 ‘빈 항목’을 선택하여 새 프로젝트를 시작하십시오.,,setup wizard label
+SS_Wizard_StepDesc_3,"Give your project a name, choose a save location, and just jump right in!",프로젝트 이름을 지정하고 저장 위치를 ​​선택한 다음 바로 시작하십시오!,,setup wizard label
 SS_Wizard_DontShowAgain,Don't show me again,다시 표시 안 함,,dont show again label
 SS_ButtonGo,Let's Go!,시작해봅시다!,,startscreen go button label
 SS_DirectoryNotExists,Directory '{0}' does not exist.\nPlease verify the project location and try again.,디렉토리 '{0}'이(가) 존재하지 않습니다.\n프로젝트 위치를 확인하고 다시 시도하십시오.,,Startscreen project directory does not exist
@@ -7168,15 +7167,15 @@ runtime_dns_DnsTestHasFailed,DNS test has failed,DNS 테스트 실패,,A title o
 runtime_dns_DnsTestHasFailedMessage,DNS resolving test has failed with the current settings. Alternative DNS has been disabled,현재 설정에 대해 DNS 확인 테스트에 실패했습니다. 대체 DNS가 비활성화됨,,A warning which is shown after failing the DNS test
 runtime_dns_ResolvingFailed,DNS resolving has failed,DNS 확인 실패,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
 runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,대체 DNS로 {0}을(를) 확인할 수 없습니다. 시스템 DNS가 사용됨,,Could not use an alternative DNS
-runtime_empty_dns_warning,"No DNS IP specified - the runtime feeds will be resolved against a system DNS","지정된 DNS IP 없음 - 런타임 피드가 시스템 DNS에 대해 확인됩니다.",,"A tip which is shown in the Preferences window when a user leaves the field ""Alternative DNS IP"" empty"
+runtime_empty_dns_warning,No DNS IP specified - the runtime feeds will be resolved against a system DNS,지정된 DNS IP 없음 - 런타임 피드가 시스템 DNS에 대해 확인됩니다.,,"A tip which is shown in the Preferences window when a user leaves the field ""Alternative DNS IP"" empty"
 ProgressBar_DnsTest,Testing DNS...,DNS 테스트 중...,,A title of the progress bar
 GoTo_Pref_RedefineKeys,Search in Redefine Keys,재정의 키에서 검색,,search redfine keys pref
-SS_Wizard_StepDesc_3BlankA,"You've selected 'New Blank' template.","'새 공백' 템플릿을 선택했습니다.",,setup wizard label
+SS_Wizard_StepDesc_3BlankA,You've selected 'New Blank' template.,'새 공백' 템플릿을 선택했습니다.,,setup wizard label
 SS_NewDescHeader,Description:,설명:,,start screen new project description
 SS_NewDesc,Create an empty GameMaker project. Build your game up from a blank canvas.,빈 GameMaker 프로젝트를 생성하십시오. 빈 캔버스에서 게임을 빌드하십시오.,,start screen new project description
 SS_NewInfoHeader,Other Info:,기타 정보:,,start screen new project description
 SS_NewInfo,Set your scripting preference in Game Options/Preferences.,게임 옵션/환경 설정에서 스크립트 기본 설정을 지정하십시오.,,start screen new project description
-Validate_InvalidPathTooLong,"Path is too long: '{0}'.","경로가 너무 김: '{0}'.",,Rename message
+Validate_InvalidPathTooLong,Path is too long: '{0}'.,경로가 너무 김: '{0}'.,,Rename message
 Visual Editor,Visual Editor,비주얼 에디터,,Visual Editor preference group subheading
 GMLVisual,GML Visual,GML 비주얼,,GML Visual preference group subheading
 FileFilter_TemplateProject,GameMaker Project Template,GameMaker 프로젝트 템플릿,,template project filter
@@ -7185,92 +7184,92 @@ ScriptType_SelectLang,Select the scripting language for your project:,프로젝�
 ScriptType_SelectLang_Info,Note: This can be changed at any time,Note: 이것은 언제든지 변경할 수 있습니다.,,select scripting language label
 ScriptType_Code,GML CODE,GML 코드,,code scripting type
 ScriptType_Visual,GML VISUAL,GML 비주얼,,visual scripting type
-ScriptType_CodeDesc,"Program your game with GML's simple coding syntax and powerful object-oriented language features, suitable for users learning how to code and advanced programmers skilled in industry-standard languages.","GML의 간단한 코딩 구문과 강력한 객체 지향 언어 기능으로 게임을 프로그래밍하십시오. 이는 코딩 방법을 배우는 사용자와 업계 표준 언어에 능숙한 고급 프로그래머에게 적합합니다.",,code script type description
-ScriptType_VisualDesc,"Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.","작업을 사용하여 게임을 시각적으로 프로그래밍하십시오. 비주얼 블록을 통해 코딩을 배우십시오. 작업에 해당하는 코드를 미리 보고 언제든지 코드로 변환할 수 있습니다.",,visual script type description
+ScriptType_CodeDesc,"Program your game with GML's simple coding syntax and powerful object-oriented language features, suitable for users learning how to code and advanced programmers skilled in industry-standard languages.",GML의 간단한 코딩 구문과 강력한 객체 지향 언어 기능으로 게임을 프로그래밍하십시오. 이는 코딩 방법을 배우는 사용자와 업계 표준 언어에 능숙한 고급 프로그래머에게 적합합니다.,,code script type description
+ScriptType_VisualDesc,Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.,작업을 사용하여 게임을 시각적으로 프로그래밍하십시오. 비주얼 블록을 통해 코딩을 배우십시오. 작업에 해당하는 코드를 미리 보고 언제든지 코드로 변환할 수 있습니다.,,visual script type description
 ScriptType_DontAskProject,Don't ask again for this project,이 프로젝트에 대해 다시 묻지 않음,,dont ask again this project
 ScriptType_DontAskEver,Don't ask again ever,다시 묻지 않음,,dont ask again all projects
 ListBoxEnum_eDefaultScriptType_None,Always Ask,항상 물음,,default script type none
 ListBoxEnum_eDefaultScriptType_GML,GML Code,GML 코드,,default script type gml
 ListBoxEnum_eDefaultScriptType_GMLVisual,GML Visual,GML 비주얼,,default script type GML Visual
 default_script_pref,Default scripting language,기본 스크립트 언어,,default scripting language preference
-GMStdCatTime,"Time","시간",,GML Visual library category name
-GMStdTimeSource,"Time Source","시간 소스",,GML Visual library argument label
-GMStdParent,"Parent","상위 항목",,GML Visual library argument label
-GMStdPeriod,"Period","마침표",,GML Visual library argument label
-GMStdUnits,"Units","유닛",,GML Visual library argument label
-GMStdCallback,"Callback","콜백",,GML Visual library argument label
-GMStdReps,"Repetitions","반복 항목",,GML Visual library argument label
-GMStdExpiryType,"Expiry Type","만료 유형",,GML Visual library argument label
-GMStdVar_time_source_global,"Global Time Source","전 세계 시간 소스",,GML Visual argument value
-GMStdVar_time_source_game,"Game Time Source","게임 시간 소스",,GML Visual argument value
-GMStdVar_time_source_units_seconds,"Seconds","초",,GML Visual argument value
-GMStdVar_time_source_units_frames,"Frames","프레임",,GML Visual argument value
-GMStdVar_time_source_expire_nearest,"Nearest","가장 가까운 항목",,GML Visual argument value
-GMStdVar_time_source_expire_after,"After","다음 이후",,GML Visual argument value
-GMStdVar_time_source_state_initial,"Initial","첫 항목",,GML Visual argument value
-GMStdVar_time_source_state_active,"Active","활성",,GML Visual argument value
-GMStdVar_time_source_state_paused,"Paused","정지됨",,GML Visual argument value
-GMStdVar_time_source_state_stopped,"Stopped","중지됨",,GML Visual argument value
-GMStdTimeSourceCreate_Name,"Create Time Source","시간 소스 생성",,GML Visual action name
-GMStdTimeSourceCreate_Desc,"Create a time source.","시간 소스를 생성합니다.",,GML Visual action description
-GMStdTimeSourceCreate_Story,"Create a time source and assign it to ${idx}","시간 소스를 생성하고 ${idx}에 할당",,GML Visual story text
-GMStdTimeSourceDestroy_Name,"Destroy Time Source","시간 소스 파괴",,GML Visual action name
-GMStdTimeSourceDestroy_Desc,"Destroy a time source.","시간 소스를 파괴합니다.",,GML Visual action description
-GMStdTimeSourceStart_Name,"Start Time Source","시간 소스 시작",,GML Visual action name
-GMStdTimeSourceStart_Desc,"Start a time source.","시간 소스를 시작합니다.",,GML Visual action description
-GMStdTimeSourceStart_Story,"Start time source ${idx}","시간 소스 ${idx} 시작",,GML Visual story text
-GMStdTimeSourceStop_Name,"Stop Time Source","시간 소스 중지",,GML Visual action name
-GMStdTimeSourceStop_Desc,"Stop a time source.","시간 소스를 중지합니다.",,GML Visual action description
-GMStdTimeSourceStop_Story,"Stop time source ${idx}","시간 소스 ${idx} 중지",,GML Visual story text
-GMStdTimeSourcePause_Name,"Pause Time Source","시간 소스 일시 중지",,GML Visual action name
-GMStdTimeSourcePause_Desc,"Pause a time source.","시간 소스를 일시 중지합니다.",,GML Visual action description
-GMStdTimeSourcePause_Story,"Pause time source ${idx}","시간 소스 ${idx} 일시 중지",,GML Visual story text
-GMStdTimeSourceReset_Name,"Reset Time Source","시간 소스 다시 설정",,GML Visual action name
-GMStdTimeSourceReset_Desc,"Reset a time source.","시간 소스를 다시 설정합니다.",,GML Visual action description
-GMStdTimeSourceReset_Story,"Reset time source ${idx}","시간 소스 ${idx} 다시 설정",,GML Visual story text
-GMStdTimeSourceReconfigure_Name,"Reconfigure Time Source","시간 소스 재구성",,GML Visual action name
-GMStdTimeSourceReconfigure_Desc,"Reset and reconfigure a time source.","시간 소스를 다시 설정하고 재구성합니다.",,GML Visual action description
-GMStdTimeSourceReconfigure_Story,"Reset and reconfigure time source ${idx}","시간 소스 ${idx} 다시 설정 및 재구성",,GML Visual story text
-GMStdTimeSourceGetPeriod_Name,"Get Period","기간 가져오기",,GML Visual action name
-GMStdTimeSourceGetPeriod_Desc,"Get the period of a time source.","시간 소스의 기간을 가져옵니다.",,GML Visual action description
-GMStdTimeSourceGetPeriod_Story,"Get the period of time source ${idx} and assign it to ${var}","시간 소스 ${idx}의 기간을 가져오고 ${var}에 할당",,GML Visual story text
-GMStdTimeSourceGetRepsCompleted_Name,"Get Reps Completed","완료된 반복 횟수 가져오기",,GML Visual action name
-GMStdTimeSourceGetRepsCompleted_Desc,"Get the number of repetitions a time source has completed.","시간 소스가 완료된 반복 횟수를 가져옵니다.",,GML Visual action description
-GMStdTimeSourceGetRepsCompleted_Story,"Get the number of completed repetitions of time source ${idx} and assign it to ${var}","시간 소스 ${idx}의 완료된 반복 횟수를 가져오고 ${var}에 할당",,GML Visual story text
-GMStdTimeSourceGetRepsRemaining_Name,"Get Reps Remaining","남은 반복 횟수 가져오기",,GML Visual action name
-GMStdTimeSourceGetRepsRemaining_Desc,"Get the number of repetitions a time source has remaining.","시간 소스가 남은 반복 횟수를 가져옵니다.",,GML Visual action description
-GMStdTimeSourceGetRepsRemaining_Story,"Get the number of remaining repetitions of time source ${idx} and assign it to ${var}","시간 소스 ${idx}의 남은 반복 횟수를 가져오고 ${var}에 할당",,GML Visual story text
-GMStdTimeSourceGetUnits_Name,"Get Units","유닛 가져오기",,GML Visual action name
-GMStdTimeSourceGetUnits_Desc,"Get the units of a time source.","시간 소스의 유닛을 가져옵니다.",,GML Visual action description
-GMStdTimeSourceGetUnits_Story,"Get the units of time source ${idx} and assign it to ${var}","시간 소스 ${idx}의 유닛을 가져오고 ${var}에 할당",,GML Visual story text
-GMStdTimeSourceGetTimeRemaining_Name,"Get Time Remaining","남은 시간 가져오기",,GML Visual action name
-GMStdTimeSourceGetTimeRemaining_Desc,"Get the time remaining on a time source.","시간 소스의 남은 시간을 가져옵니다.",,GML Visual action description
-GMStdTimeSourceGetTimeRemaining_Story,"Get the time remaining on time source ${idx} and assign it to ${var}","시간 소스 ${idx}의 남은 시간을 가져오고 ${var}에 할당",,GML Visual story text
-GMStdTimeSourceGetState_Name,"Get State","상태 가져오기",,GML Visual action name
-GMStdTimeSourceGetState_Desc,"Get the current state of a time source.","시간 소스의 현재 상태를 가져옵니다.",,GML Visual action description
-GMStdTimeSourceGetState_Story,"Get the current state of time source ${idx} and assign it to ${var}","시간 소스 ${idx}의 현재 상태를 가져오고 ${var}에 할당",,GML Visual story text
-GMStdTimeSourceGetParent_Name,"Get Parent","상위 항목 가져오기",,GML Visual action name
-GMStdTimeSourceGetParent_Desc,"Get the parent of a time source.","시간 소스의 상위 항목을 가져옵니다.",,GML Visual action description
-GMStdTimeSourceGetParent_Story,"Get the parent of time source ${idx} and assign it to ${var}","시간 소스 ${idx}의 상위 항목을 가져오고 ${var}에 할당",,GML Visual story text
-GMStdTimeSourceGetChildren_Name,"Get Children","하위 항목 가져오기",,GML Visual action name
-GMStdTimeSourceGetChildren_Desc,"Get the children of a time source.","시간 소스의 하위 항목을 가져옵니다.",,GML Visual action description
-GMStdTimeSourceGetChildren_Story,"Get the children of time source ${idx} and assign it to ${var}","시간 소스 ${idx}의 하위 항목을 가져오고 ${var}에 할당",,GML Visual story text
-GMStdTimeSourceExists_Name,"If Time Source Exists","시간 소스 존재 여부",,GML Visual action name
-GMStdTimeSourceExists_Desc,"Check if a time source exists.","시간 소스 존재 여부를 확인합니다.",,GML Visual action description
-GMStdTimeSourceExists_Story_1,"If time source ${idx} exists","시간 소스 ${idx} 존재 여부",,GML Visual story text
-GMStdTimeSourceExists_Story_2,"If time source ${idx} does not exist","시간 소스 ${idx} 부재 여부",,GML Visual story text
-GMStdIfTimeSourceState_Name,"If State","상태 조건 충족 여부",,GML Visual action name
-GMStdIfTimeSourceState_Desc,"Check if a time source's state satisfies a condition.","시간 소스의 상태의 조건 충족 여부를 확인합니다.",,GML Visual action description
-GMStdIfTimeSourceState_Story_1,"If the state of time source ${idx} is ${state}","시간 소스 ${idx}의 상태가 ${state}인지 여부",,GML Visual story text
-GMStdIfTimeSourceState_Story_2,"If the state of time source ${idx} is not ${state}","시간 소스 ${idx}의 상태가 ${state}이(가) 아닌지 여부",,GML Visual story text
-GMStdIfTimeSourceUnits_Name,"If Units","유닛 조건 충족 여부",,GML Visual action name
-GMStdIfTimeSourceUnits_Desc,"Check if a time source's units satisfies a condition.","시간 소스의 유닛의 조건 충족 여부를 확인합니다.",,GML Visual action description
-GMStdIfTimeSourceUnits_Story_1,"If the units of time source ${idx} are ${units}","시간 소스 ${idx}의 유닛이 ${units}인지 여부",,GML Visual story text
-GMStdIfTimeSourceUnits_Story_2,"If the units of time source ${idx} are not ${units}","시간 소스 ${idx}의 유닛이 ${units}이(가) 아닌지 여부",,GML Visual story text
-GMStdIfTimeSourceParent_Name,"If Parent","상위 항목 조건 충족 여부",,GML Visual action name
-GMStdIfTimeSourceParent_Desc,"Check if a time source's parent satisfies a condition.","시간 소스의 상위 항목의 조건 충족 여부를 확인합니다.",,GML Visual action description
-GMStdIfTimeSourceParent_Story_1,"If the parent of time source ${idx} is ${parent}","시간 소스 ${idx}의 상위 항목이 ${parent}인지 여부",,GML Visual story text
-GMStdIfTimeSourceParent_Story_2,"If the parent of time source ${idx} is not ${parent}","시간 소스 ${idx}의 상위 항목이 ${parent}이(가) 아닌지 여부",,GML Visual story text
+GMStdCatTime,Time,시간,,GML Visual library category name
+GMStdTimeSource,Time Source,시간 소스,,GML Visual library argument label
+GMStdParent,Parent,상위 항목,,GML Visual library argument label
+GMStdPeriod,Period,마침표,,GML Visual library argument label
+GMStdUnits,Units,유닛,,GML Visual library argument label
+GMStdCallback,Callback,콜백,,GML Visual library argument label
+GMStdReps,Repetitions,반복 항목,,GML Visual library argument label
+GMStdExpiryType,Expiry Type,만료 유형,,GML Visual library argument label
+GMStdVar_time_source_global,Global Time Source,전 세계 시간 소스,,GML Visual argument value
+GMStdVar_time_source_game,Game Time Source,게임 시간 소스,,GML Visual argument value
+GMStdVar_time_source_units_seconds,Seconds,초,,GML Visual argument value
+GMStdVar_time_source_units_frames,Frames,프레임,,GML Visual argument value
+GMStdVar_time_source_expire_nearest,Nearest,가장 가까운 항목,,GML Visual argument value
+GMStdVar_time_source_expire_after,After,다음 이후,,GML Visual argument value
+GMStdVar_time_source_state_initial,Initial,첫 항목,,GML Visual argument value
+GMStdVar_time_source_state_active,Active,활성,,GML Visual argument value
+GMStdVar_time_source_state_paused,Paused,정지됨,,GML Visual argument value
+GMStdVar_time_source_state_stopped,Stopped,중지됨,,GML Visual argument value
+GMStdTimeSourceCreate_Name,Create Time Source,시간 소스 생성,,GML Visual action name
+GMStdTimeSourceCreate_Desc,Create a time source.,시간 소스를 생성합니다.,,GML Visual action description
+GMStdTimeSourceCreate_Story,Create a time source and assign it to ${idx},시간 소스를 생성하고 ${idx}에 할당,,GML Visual story text
+GMStdTimeSourceDestroy_Name,Destroy Time Source,시간 소스 파괴,,GML Visual action name
+GMStdTimeSourceDestroy_Desc,Destroy a time source.,시간 소스를 파괴합니다.,,GML Visual action description
+GMStdTimeSourceStart_Name,Start Time Source,시간 소스 시작,,GML Visual action name
+GMStdTimeSourceStart_Desc,Start a time source.,시간 소스를 시작합니다.,,GML Visual action description
+GMStdTimeSourceStart_Story,Start time source ${idx},시간 소스 ${idx} 시작,,GML Visual story text
+GMStdTimeSourceStop_Name,Stop Time Source,시간 소스 중지,,GML Visual action name
+GMStdTimeSourceStop_Desc,Stop a time source.,시간 소스를 중지합니다.,,GML Visual action description
+GMStdTimeSourceStop_Story,Stop time source ${idx},시간 소스 ${idx} 중지,,GML Visual story text
+GMStdTimeSourcePause_Name,Pause Time Source,시간 소스 일시 중지,,GML Visual action name
+GMStdTimeSourcePause_Desc,Pause a time source.,시간 소스를 일시 중지합니다.,,GML Visual action description
+GMStdTimeSourcePause_Story,Pause time source ${idx},시간 소스 ${idx} 일시 중지,,GML Visual story text
+GMStdTimeSourceReset_Name,Reset Time Source,시간 소스 다시 설정,,GML Visual action name
+GMStdTimeSourceReset_Desc,Reset a time source.,시간 소스를 다시 설정합니다.,,GML Visual action description
+GMStdTimeSourceReset_Story,Reset time source ${idx},시간 소스 ${idx} 다시 설정,,GML Visual story text
+GMStdTimeSourceReconfigure_Name,Reconfigure Time Source,시간 소스 재구성,,GML Visual action name
+GMStdTimeSourceReconfigure_Desc,Reset and reconfigure a time source.,시간 소스를 다시 설정하고 재구성합니다.,,GML Visual action description
+GMStdTimeSourceReconfigure_Story,Reset and reconfigure time source ${idx},시간 소스 ${idx} 다시 설정 및 재구성,,GML Visual story text
+GMStdTimeSourceGetPeriod_Name,Get Period,기간 가져오기,,GML Visual action name
+GMStdTimeSourceGetPeriod_Desc,Get the period of a time source.,시간 소스의 기간을 가져옵니다.,,GML Visual action description
+GMStdTimeSourceGetPeriod_Story,Get the period of time source ${idx} and assign it to ${var},시간 소스 ${idx}의 기간을 가져오고 ${var}에 할당,,GML Visual story text
+GMStdTimeSourceGetRepsCompleted_Name,Get Reps Completed,완료된 반복 횟수 가져오기,,GML Visual action name
+GMStdTimeSourceGetRepsCompleted_Desc,Get the number of repetitions a time source has completed.,시간 소스가 완료된 반복 횟수를 가져옵니다.,,GML Visual action description
+GMStdTimeSourceGetRepsCompleted_Story,Get the number of completed repetitions of time source ${idx} and assign it to ${var},시간 소스 ${idx}의 완료된 반복 횟수를 가져오고 ${var}에 할당,,GML Visual story text
+GMStdTimeSourceGetRepsRemaining_Name,Get Reps Remaining,남은 반복 횟수 가져오기,,GML Visual action name
+GMStdTimeSourceGetRepsRemaining_Desc,Get the number of repetitions a time source has remaining.,시간 소스가 남은 반복 횟수를 가져옵니다.,,GML Visual action description
+GMStdTimeSourceGetRepsRemaining_Story,Get the number of remaining repetitions of time source ${idx} and assign it to ${var},시간 소스 ${idx}의 남은 반복 횟수를 가져오고 ${var}에 할당,,GML Visual story text
+GMStdTimeSourceGetUnits_Name,Get Units,유닛 가져오기,,GML Visual action name
+GMStdTimeSourceGetUnits_Desc,Get the units of a time source.,시간 소스의 유닛을 가져옵니다.,,GML Visual action description
+GMStdTimeSourceGetUnits_Story,Get the units of time source ${idx} and assign it to ${var},시간 소스 ${idx}의 유닛을 가져오고 ${var}에 할당,,GML Visual story text
+GMStdTimeSourceGetTimeRemaining_Name,Get Time Remaining,남은 시간 가져오기,,GML Visual action name
+GMStdTimeSourceGetTimeRemaining_Desc,Get the time remaining on a time source.,시간 소스의 남은 시간을 가져옵니다.,,GML Visual action description
+GMStdTimeSourceGetTimeRemaining_Story,Get the time remaining on time source ${idx} and assign it to ${var},시간 소스 ${idx}의 남은 시간을 가져오고 ${var}에 할당,,GML Visual story text
+GMStdTimeSourceGetState_Name,Get State,상태 가져오기,,GML Visual action name
+GMStdTimeSourceGetState_Desc,Get the current state of a time source.,시간 소스의 현재 상태를 가져옵니다.,,GML Visual action description
+GMStdTimeSourceGetState_Story,Get the current state of time source ${idx} and assign it to ${var},시간 소스 ${idx}의 현재 상태를 가져오고 ${var}에 할당,,GML Visual story text
+GMStdTimeSourceGetParent_Name,Get Parent,상위 항목 가져오기,,GML Visual action name
+GMStdTimeSourceGetParent_Desc,Get the parent of a time source.,시간 소스의 상위 항목을 가져옵니다.,,GML Visual action description
+GMStdTimeSourceGetParent_Story,Get the parent of time source ${idx} and assign it to ${var},시간 소스 ${idx}의 상위 항목을 가져오고 ${var}에 할당,,GML Visual story text
+GMStdTimeSourceGetChildren_Name,Get Children,하위 항목 가져오기,,GML Visual action name
+GMStdTimeSourceGetChildren_Desc,Get the children of a time source.,시간 소스의 하위 항목을 가져옵니다.,,GML Visual action description
+GMStdTimeSourceGetChildren_Story,Get the children of time source ${idx} and assign it to ${var},시간 소스 ${idx}의 하위 항목을 가져오고 ${var}에 할당,,GML Visual story text
+GMStdTimeSourceExists_Name,If Time Source Exists,시간 소스 존재 여부,,GML Visual action name
+GMStdTimeSourceExists_Desc,Check if a time source exists.,시간 소스 존재 여부를 확인합니다.,,GML Visual action description
+GMStdTimeSourceExists_Story_1,If time source ${idx} exists,시간 소스 ${idx} 존재 여부,,GML Visual story text
+GMStdTimeSourceExists_Story_2,If time source ${idx} does not exist,시간 소스 ${idx} 부재 여부,,GML Visual story text
+GMStdIfTimeSourceState_Name,If State,상태 조건 충족 여부,,GML Visual action name
+GMStdIfTimeSourceState_Desc,Check if a time source's state satisfies a condition.,시간 소스의 상태의 조건 충족 여부를 확인합니다.,,GML Visual action description
+GMStdIfTimeSourceState_Story_1,If the state of time source ${idx} is ${state},시간 소스 ${idx}의 상태가 ${state}인지 여부,,GML Visual story text
+GMStdIfTimeSourceState_Story_2,If the state of time source ${idx} is not ${state},시간 소스 ${idx}의 상태가 ${state}이(가) 아닌지 여부,,GML Visual story text
+GMStdIfTimeSourceUnits_Name,If Units,유닛 조건 충족 여부,,GML Visual action name
+GMStdIfTimeSourceUnits_Desc,Check if a time source's units satisfies a condition.,시간 소스의 유닛의 조건 충족 여부를 확인합니다.,,GML Visual action description
+GMStdIfTimeSourceUnits_Story_1,If the units of time source ${idx} are ${units},시간 소스 ${idx}의 유닛이 ${units}인지 여부,,GML Visual story text
+GMStdIfTimeSourceUnits_Story_2,If the units of time source ${idx} are not ${units},시간 소스 ${idx}의 유닛이 ${units}이(가) 아닌지 여부,,GML Visual story text
+GMStdIfTimeSourceParent_Name,If Parent,상위 항목 조건 충족 여부,,GML Visual action name
+GMStdIfTimeSourceParent_Desc,Check if a time source's parent satisfies a condition.,시간 소스의 상위 항목의 조건 충족 여부를 확인합니다.,,GML Visual action description
+GMStdIfTimeSourceParent_Story_1,If the parent of time source ${idx} is ${parent},시간 소스 ${idx}의 상위 항목이 ${parent}인지 여부,,GML Visual story text
+GMStdIfTimeSourceParent_Story_2,If the parent of time source ${idx} is not ${parent},시간 소스 ${idx}의 상위 항목이 ${parent}이(가) 아닌지 여부,,GML Visual story text
 RedefineKeys_MoveFlowNext,Move Flow Next,흐름을 다음으로 이동,,Redefine keys MoveFlowNext string
 RedefineKeys_MoveFlowPrevious,Move Flow Previous,흐름을 이전으로 이동,,Redefine keys MoveFlowPrevious string
 RedefineKeys_FlowAccept,Flow Accept,흐름 수락,,Redefine keys FlowAccept string
@@ -7744,10 +7743,10 @@ RedefineKeys_Insert,Insert,삽입,,Redefine keys Insert string
 RedefineKeys_ImageEditor_AddFromFile,Image Editor Add From File,이미지 에디터 파일에서 추가,,Redefine keys ImageEditor_AddFromFile string
 RedefineKeys_ImageEditor_CreateFromStrip,Image Editor Create From Strip,이미지 에디터 스트립에서 생성,,Redefine keys ImageEditor_CreateFromStrip string
 RedefineKeys_ImageEditor_ImportFromStrip,Image Editor Import From Strip,이미지 에디터 스트립에서 가져오기,,Redefine keys ImageEditor_ImportFromStrip string
-RedefineKeys_ImageEditor_ExportToPNG,Image Editor Export To PNG,이미지 에디터 PNG로 내보내기,,Redefine keys ImageEditor_ExportToPNG string
+RedefineKeys_Export To PNG,Image Editor Export To PNG,이미지 에디터 PNG로 내보내기,,Redefine keys ImageEditor_ExportToPNG string
 RedefineKeys_ImageEditor_ResizeCanvas,Image Editor Resize Canvas,이미지 에디터 캔버스 크기 조정,,Redefine keys ImageEditor_ResizeCanvas string
 RedefineKeys_ImageEditor_CropToSelection,Image Editor Crop To Selection,이미지 에디터 선택 항목으로 자르기,,Redefine keys ImageEditor_CropToSelection string
-RedefineKeys_ImageEditor_AutoTrim,Image Editor Auto Trim,이미지 에디터 자동 자르기,,Redefine keys ImageEditor_AutoTrim string
+RedefineKeys_Auto Trim Frames,Image Editor Auto Trim,이미지 에디터 자동 자르기,,Redefine keys ImageEditor_AutoTrim string
 RedefineKeys_ImageEditor_ReverseFrames,Image Editor Reverse Frames,이미지 에디터 프레임 반전,,Redefine keys ImageEditor_ReverseFrames string
 RedefineKeys_Transform Current Frame,Transform Current Frame,현재 프레임 변환,,Redefine keys Transform Current Frame string
 RedefineKeys_Transform All Frames,Transform All Frames,모든 프레임 변환,,Redefine keys Transform All Frames string
@@ -7913,6 +7912,7 @@ RedefineKeys_SoundMixer,Sound Mixer,사운드 믹서,,Redefine keys location ent
 RedefineKeys_Keys,Keys,키,,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,롤백 시작,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,롤백 이벤트,,Other event subtype
+Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
 Inspector_InstVarMixedObjects,Variables only shown when all selected Instances have the same Object,선택한 모든 인스턴스의 오브젝트가 동일한 경우에만 표시되는 변수,,mixed instance object message
 Object_Managed,Managed,관리됨,,The object is managed by the rollback system
 Object_Managed_Tooltip,Instances of this object will have its lifecycle managed during rollback multiplayer,다중 플레이어를 롤백하는 동안 이 오브젝트의 인스턴스 수명 주기가 관리됩니다,,The object is managed by rollback system (tooltip)
@@ -8048,7 +8048,7 @@ GMStdRollbackIfInput_Desc,Check if a key managed by the rollback is held down.,�
 GMStdRollbackIfEventFired_Name,If Rollback Event Fired,롤백 이벤트가 발생한 경우,,Drag and Dropâ„¢ library action name
 GMStdRollbackIfEventFired_Desc,If a rollback event was fired,롤백 이벤트가 발생한 경우,,Drag and Dropâ„¢ library action description
 GMStdRollbackSyncOnFrame_Name,Sync on frame,프레임에서 동기화,,Drag and Dropâ„¢ library action name
-GMStdRollbackSyncOnFrame_Desc,"Synchronize the rollback game on the current frame. This means that we will only proceed past the current frame if all inputs are confirmed. Returns true if successful, false if the current frame will be rerun.","현재 프레임에서 롤백 게임을 동기화합니다. 이는 모든 입력이 확인될 경우에만 현재 프레임을 지나 진행한다는 것을 의미합니다. 성공하면 참(true)을 반환하고 현재 프레임을 다시 실행할 경우 거짓(false)을 반환합니다.",,Drag and Dropâ„¢ library action description
+GMStdRollbackSyncOnFrame_Desc,"Synchronize the rollback game on the current frame. This means that we will only proceed past the current frame if all inputs are confirmed. Returns true if successful, false if the current frame will be rerun.",현재 프레임에서 롤백 게임을 동기화합니다. 이는 모든 입력이 확인될 경우에만 현재 프레임을 지나 진행한다는 것을 의미합니다. 성공하면 참(true)을 반환하고 현재 프레임을 다시 실행할 경우 거짓(false)을 반환합니다.,,Drag and Dropâ„¢ library action description
 GMStdRollbackGetInfo_Name,Get info,정보 알아보기,,Drag and Dropâ„¢ library action name
 GMStdRollbackGetInfo_Desc,This function returns a struct containing player_name and avatar_url for the player.,이 함수는 플레이어의 player_name 및 avata_url을 포함하는 구조를 반환합니다.,,Drag and Dropâ„¢ library action description
 ProgressBar_CopyFromCache,Copying from cache...,캐시에서 복사 중...,,the progress bar caption while copying the imported project from cache into a destination folder

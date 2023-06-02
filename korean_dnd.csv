@@ -417,18 +417,18 @@ GMStdDrawValue_Story_1,Draw  at ${dnd_position},${dnd_position}에서 그리기,
 GMStdDrawValue_Story_2,Draw  at ${dnd_position} on ${applyto},${applyto}의 ${dnd_position}에서 그리기,,GML Visual story text
 GMStdDrawValue_Story_3,Draw  ${var} at ${dnd_position},${dnd_position}에서 ${var} 그리기,,GML Visual story text
 GMStdDrawValue_Story_4,Draw  ${var} at ${dnd_position} on ${applyto},${applyto}의 ${dnd_position}에서 ${var} 그리기,,GML Visual story text
-GMStdDrawValue_Story_5,"Draw ${caption}"" at ${dnd_position}""","${dnd_position}""에서 ${caption}"" 그리기",,GML Visual story text
-GMStdDrawValue_Story_6,"Draw ${caption}"" at ${dnd_position} on ${applyto}""","${applyto}""의 ${dnd_position}""에서 ${caption}"" 그리기",,GML Visual story text
-GMStdDrawValue_Story_7,"Draw ${caption}"" ${var} at ${dnd_position}""","${dnd_position}""에서 ${caption}"" ${var} 그리기",,GML Visual story text
-GMStdDrawValue_Story_8,"Draw ${caption}"" ${var} at ${dnd_position} on ${applyto}""","${applyto}""의 ${dnd_position}""에서 ${caption}"" ${var} 그리기",,GML Visual story text
+GMStdDrawValue_Story_5,"Draw ""${caption}"" at ${dnd_position}","${dnd_position}에서 ""${caption}"" 그리기",,GML Visual story text
+GMStdDrawValue_Story_6,"Draw ""${caption}"" at ${dnd_position} on ${applyto}","${applyto}의 ${dnd_position}에서 ""${caption}"" 그리기",,GML Visual story text
+GMStdDrawValue_Story_7,"Draw ""${caption}"" ${var} at ${dnd_position}","${dnd_position}에서 ""${caption}"" ${var} 그리기",,GML Visual story text
+GMStdDrawValue_Story_8,"Draw ""${caption}"" ${var} at ${dnd_position} on ${applyto}","${applyto}의 ${dnd_position}에서 ""${caption}"" ${var} 그리기",,GML Visual story text
 GMStdDrawValueTransformed_Story_1,Draw transformed  at ${dnd_position},${dnd_position}에서 변형 그리기,,GML Visual story text
 GMStdDrawValueTransformed_Story_2,Draw transformed  at ${dnd_position} on ${applyto},${applyto}의 ${dnd_position}에서 변형 그리기,,GML Visual story text
 GMStdDrawValueTransformed_Story_3,Draw transformed  ${var} at ${dnd_position},${dnd_position}에서 변형된 ${var} 그리기,,GML Visual story text
 GMStdDrawValueTransformed_Story_4,Draw transformed  ${var} at ${dnd_position} on ${applyto},${applyto}의 ${dnd_position}에서 변형된 ${var} 그리기,,GML Visual story text
-GMStdDrawValueTransformed_Story_5,"Draw transformed ${caption}"" at ${dnd_position}""","${dnd_position}에서 변형된 ${caption}"" 그리기",,GML Visual story text
-GMStdDrawValueTransformed_Story_6,"Draw transformed ${caption}"" at ${dnd_position} on ${applyto}""","${applyto}""의 ${dnd_position}에서 변형된 ${caption}"" 그리기",,GML Visual story text
-GMStdDrawValueTransformed_Story_7,"Draw transformed ${caption}"" ${var} at ${dnd_position}""","${dnd_position}에서 변형된 ${caption}"" ${var} 그리기",,GML Visual story text
-GMStdDrawValueTransformed_Story_8,"Draw transformed ${caption}"" ${var} at ${dnd_position} on ${applyto}""","${applyto}""의 ${dnd_position}에서 변형된 ${caption}"" ${var} 그리기",,GML Visual story text
+GMStdDrawValueTransformed_Story_5,"Draw transformed ""${caption}"" at ${dnd_position}","${dnd_position}에서 변형된 ""${caption}"" 그리기",,GML Visual story text
+GMStdDrawValueTransformed_Story_6,"Draw transformed ""${caption}"" at ${dnd_position} on ${applyto}","${applyto}의 ${dnd_position}에서 변형된 ""${caption}"" 그리기",,GML Visual story text
+GMStdDrawValueTransformed_Story_7,"Draw transformed ""${caption}"" ${var} at ${dnd_position}","${dnd_position}에서 변형된 ""${caption}"" ${var} 그리기",,GML Visual story text
+GMStdDrawValueTransformed_Story_8,"Draw transformed ""${caption}"" ${var} at ${dnd_position} on ${applyto}","${applyto}의 ${dnd_position}에서 변형된 ""${caption}"" ${var} 그리기",,GML Visual story text
 GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},${dnd_position}에서 스프라이트 ${sprite} 프레임 ${image} 그리기,,GML Visual story text
 GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},${applyto}의 ${dnd_position}에서 스프라이트 ${sprite} 프레임 ${image} 그리기,,GML Visual story text
 GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}","스케일 ${xscale},${yscale} 및 회전 ${rot}(으)로 변형된 스프라이트 ${sprite} 프레임 ${frame} 그리기",,GML Visual story text
@@ -454,9 +454,9 @@ GMStdDrawLine_Story_2,Draw line from ${dnd_position1} to ${dnd_position2} on ${a
 GMStdDrawHealthbar_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value},${dnd_position1}에서 ${dnd_position2}까지 값이 ${value}인 체력 표시줄 그리기,,GML Visual story text
 GMStdDrawHealthbar_Story_2,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto},${applyto}의 ${dnd_position1}에서 ${dnd_position2}까지 값이 ${value}인 체력 표시줄 그리기,,GML Visual story text
 GMStdDrawInstanceScore_Story_1,Draw score at ${dnd_position},${dnd_position}에서 점수 그리기,,GML Visual story text
-GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ${caption}""""","${dnd_position}에서 캡션이 ${caption}""""인 점수 그리기",,GML Visual story text
+GMStdDrawInstanceScore_Story_2,"Draw score at ${dnd_position} with caption ""${caption}""","${dnd_position}에서 캡션이 ""${caption}""인 점수 그리기",,GML Visual story text
 GMStdDrawInstanceScore_Story_3,Draw ${applyto}'s score at ${dnd_position} on ${applyto},${applyto}의 ${dnd_position}에서 ${applyto}의 점수 그리기,,GML Visual story text
-GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ${caption}"" on ${applyto}""","${applyto}의 ${dnd_position}에서 캡션이 ${caption}""인 ${applyto}의 점수 그리기",,GML Visual story text
+GMStdDrawInstanceScore_Story_4,"Draw ${applyto}'s score at ${dnd_position} with caption ""${caption}"" on ${applyto}","${applyto}의 ${dnd_position}에서 캡션이 ""${caption}""인 ${applyto}의 점수 그리기",,GML Visual story text
 GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},${dnd_position1}에서 ${dnd_position2}까지 체력 표시줄 그리기,,GML Visual story text
 GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},${applyto}의 ${dnd_position1}에서 ${dnd_position2}까지 ${applyto}의 체력 표시줄 그리기,,GML Visual story text
 GMStdDrawInstanceLives_Story_1,Draw lives in a row at ${dnd_position},${dnd_position}에서 한 행에 생명 그리기,,GML Visual story text
