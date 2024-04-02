@@ -6,8 +6,8 @@ _Language,Korean,Korean,,Language name - in English
 _LanguageNative,Korean,한국어,,Language name in the native language
 _LanguageCode,ko,ko,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker,GameMaker,,IDE title
-_MANUAL_ONLINE_URL,https://manual-ko.yoyogames.com,https://manual-ko.yoyogames.com,,online manual url
-_TUTORIALS_ONLINE_URL,https://www.yoyogames.com/ko/tutorials,https://www.yoyogames.com/ko/tutorials,,Location of Tutorials url
+_MANUAL_ONLINE_URL,https://manual.gamemaker.io/monthly/ko,https://manual.gamemaker.io/monthly/ko,,online manual url
+_TUTORIALS_ONLINE_URL,https://gamemaker.io/ko/tutorials,https://gamemaker.io/ko/tutorials,,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,탐색기에서 열기,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,탐색기에서 프로젝트 열기,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,탐색기에서 로그 열기,,Windows version of Show Log In Explorer
@@ -7076,9 +7076,6 @@ CanvasText_ParaSpacing,Paragraph Spacing,단락 간격,,text track paragraph spa
 RedefineKeys_Record_Keys_Button,Key Search,키 검색,,Record keys button
 RedefineKeys_Default_Search,Search,검색,,Redefine Keys search box default text
 RedefineKeys_Default_Key_Search,Press a key to search,검색하려면 키를 누르십시오,,Redefine Keys search box default text when searching for key
-Redefine_Keys_WarningKeys_Dialog,This command may not work properly with the {0} key. Are you sure you want to continue?,이 명령은 {0} 키와 함께 제대로 작동하지 않을 수 있습니다. 계속하시겠습니까?,,Are you sure about remapping the command message text
-Redefine_Keys_ForbiddenKeys_Title,Forbidden Key,금지된 키,,Forbidden Key Title
-Redefine_Keys_ForbiddenKeys_Dialog,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,이 명령에는 {1} 키가 금지되어 있으므로 이 명령을 {0}에 다시 매핑할 수 없습니다.,,Forbidden keys message text
 Feather_LintMessages_Title,Feather Messages,깃털 메시지,,Feather Messages Window Title
 Feather_RefactorDialog_Title,Rename Identifier,식별자 이름 바꾸기,,Refactor Dialog Title
 Feather_RefactorDialog_Content1,Provide a new name for '{0}':,'{0}’에 대해 새 이름을 지정하십시오.,,Content 1
@@ -7270,9 +7267,9 @@ GMStdIfTimeSourceParent_Name,If Parent,상위 항목 조건 충족 여부,,GML V
 GMStdIfTimeSourceParent_Desc,Check if a time source's parent satisfies a condition.,시간 소스의 상위 항목의 조건 충족 여부를 확인합니다.,,GML Visual action description
 GMStdIfTimeSourceParent_Story_1,If the parent of time source ${idx} is ${parent},시간 소스 ${idx}의 상위 항목이 ${parent}인지 여부,,GML Visual story text
 GMStdIfTimeSourceParent_Story_2,If the parent of time source ${idx} is not ${parent},시간 소스 ${idx}의 상위 항목이 ${parent}이(가) 아닌지 여부,,GML Visual story text
-RedefineKeys_MoveFlowNext,Move Flow Next,흐름을 다음으로 이동,,Redefine keys MoveFlowNext string
-RedefineKeys_MoveFlowPrevious,Move Flow Previous,흐름을 이전으로 이동,,Redefine keys MoveFlowPrevious string
-RedefineKeys_FlowAccept,Flow Accept,흐름 수락,,Redefine keys FlowAccept string
+RedefineKeys_Move Focus Next,Move Flow Next,흐름을 다음으로 이동,,Redefine keys MoveFlowNext string
+RedefineKeys_Move Focus Previous,Move Flow Previous,흐름을 이전으로 이동,,Redefine keys MoveFlowPrevious string
+RedefineKeys_Focus Accept,Flow Accept,흐름 수락,,Redefine keys FlowAccept string
 RedefineKeys_Undo,Undo,취소,,Redefine keys Undo string
 RedefineKeys_Redo,Redo,복귀,,Redefine keys Redo string
 RedefineKeys_Rename,Rename,이름 바꾸기,,Redefine keys Rename string
@@ -7282,8 +7279,8 @@ RedefineKeys_Zoom Out,Zoom Out,축소,,Redefine keys Zoom Out string
 RedefineKeys_Quit,Quit,끝내기,,Redefine keys Quit string
 RedefineKeys_Save As,Save As,다른 이름으로 저장,,Redefine keys Save As string
 RedefineKeys_Export Project,Export Project,프로젝트 내보내기,,Redefine keys Export Project string
-RedefineKeys_force_dock_expansion,Force Dock Expansion,강제 도킹 확장,,Redefine keys force_dock_expansion string
-RedefineKeys_close_tab,Close Tab,탭 닫기,,Redefine keys close_tab string
+RedefineKeys_Force Dock Expansion,Force Dock Expansion,강제 도킹 확장,,Redefine keys force_dock_expansion string
+RedefineKeys_Close Tab,Close Tab,탭 닫기,,Redefine keys close_tab string
 RedefineKeys_CaretLeft,Caret Left,캐럿 왼쪽,,Redefine keys CaretLeft string
 RedefineKeys_CaretRight,Caret Right,캐럿 오른쪽,,Redefine keys CaretRight string
 RedefineKeys_CaretUp,Caret Up,캐럿 위로,,Redefine keys CaretUp string
@@ -7349,15 +7346,15 @@ RedefineKeys_DecrementTextSize,Decrement Text Size,텍스트 크기 감소,,Rede
 RedefineKeys_IncrementTextSize,Increment Text Size,텍스트 크기 증가,,Redefine keys IncrementTextSize string
 RedefineKeys_TextEditorGotoLine,Text Editor Goto Line,텍스트 에디터 이동 선,,Redefine keys TextEditorGotoLine string
 RedefineKeys_toggle_canvas_rulers,Toggle Canvas Rulers,캔버스 눈금자 토글,,Redefine keys toggle_canvas_rulers string
-RedefineKeys_Toggle Grid Snap,Toggle Grid Snap,그리드 맞추기 토글,,Redefine keys Toggle Grid Snap string
+RedefineKeys_Toggle Snap to Grid,Toggle Grid Snap,그리드 맞추기 토글,,Redefine keys Toggle Grid Snap string
 RedefineKeys_sequence_split_keyframe,Sequence Split Keyframe,시퀀스 분할 키프레임,,Redefine keys sequence_split_keyframe string
 RedefineKeys_sequence_remove_keyframe,Sequence Remove Keyframe,시퀀스 제거 키프레임,,Redefine keys sequence_remove_keyframe string
-RedefineKeys_sequence_add_keyframe,Sequence Add Keyframe,시퀀스 추가 키프레임,,Redefine keys sequence_add_keyframe string
+RedefineKeys_Add Key Frame,Sequence Add Keyframe,시퀀스 추가 키프레임,,Redefine keys sequence_add_keyframe string
 RedefineKeys_sequence_toggle_autokey,Sequence Toggle Autokey,시퀀스 토글 자동키,,Redefine keys sequence_toggle_autokey string
 RedefineKeys_sequence_delete_bksp,Sequence Delete Bksp,시퀀스 삭제 Bksp,,Redefine keys sequence_delete_bksp string
 RedefineKeys_Delete,Delete,삭제,,Redefine keys Delete string
 RedefineKeys_sequence_toggle_multiselect_origin,Sequence Toggle Multiselect Origin,시퀀스 다중 선택 원점 토글,,Redefine keys sequence_toggle_multiselect_origin string
-RedefineKeys_sequence_center_item_origin,Sequence Center Item Origin,시퀀스 항목 원점 중앙 배치,,Redefine keys sequence_center_item_origin string
+RedefineKeys_Center Item Origin,Sequence Center Item Origin,시퀀스 항목 원점 중앙 배치,,Redefine keys sequence_center_item_origin string
 RedefineKeys_sequence_reset_item_position,Sequence Reset Item Position,시퀀스 항목 위치 다시 설정,,Redefine keys sequence_reset_item_position string
 RedefineKeys_seq_smartguide_toggle_vis,Seq Smartguide Toggle Vis,시퀀스 스마트가이드 비주얼 토글,,Redefine keys seq_smartguide_toggle_vis string
 RedefineKeys_seq_smartguide_toggle_rulerlock,Seq Smartguide Toggle Rulerlock,시퀀스 스마트가이드 눈금자 잠금 토글,,Redefine keys seq_smartguide_toggle_rulerlock string
@@ -7384,16 +7381,16 @@ RedefineKeys_sequence_trim_key_right,Sequence Trim Key Right,시퀀스 키 오�
 RedefineKeys_sequence_split_key_two_tracks,Sequence Split Key Two Tracks,시퀀스 키 분할 투 트랙,,Redefine keys sequence_split_key_two_tracks string
 RedefineKeys_sequence_stretch_keys_right,Sequence Stretch Keys Right,시퀀스 키 오른쪽으로 늘리기,,Redefine keys sequence_stretch_keys_right string
 RedefineKeys_sequence_stretch_keys_left,Sequence Stretch Keys Left,시퀀스 키 왼쪽으로 늘리기,,Redefine keys sequence_stretch_keys_left string
-RedefineKeys_sequence_next_keyframe,Sequence Next Keyframe,시퀀스 다음 키프레임,,Redefine keys sequence_next_keyframe string
-RedefineKeys_sequence_prev_keyframe,Sequence Prev Keyframe,시퀀스 이전 키프레임,,Redefine keys sequence_prev_keyframe string
+RedefineKeys_Go To Next Keyframe,Sequence Next Keyframe,시퀀스 다음 키프레임,,Redefine keys sequence_next_keyframe string
+RedefineKeys_Go To Previous Keyframe,Sequence Prev Keyframe,시퀀스 이전 키프레임,,Redefine keys sequence_prev_keyframe string
 RedefineKeys_sequence_select_next_key,Sequence Select Next Key,시퀀스 다음 키 선택,,Redefine keys sequence_select_next_key string
 RedefineKeys_sequence_select_prev_key,Sequence Select Prev Key,시퀀스 이전 키 선택,,Redefine keys sequence_select_prev_key string
-RedefineKeys_sequence_goto_start,Sequence Goto Start,시퀀스 이동 시작,,Redefine keys sequence_goto_start string
-RedefineKeys_sequence_goto_end,Sequence Goto End,시퀀스 이동 종료,,Redefine keys sequence_goto_end string
-RedefineKeys_sequence_goto_start_selection,Sequence Goto Start Selection,시퀀스 이동 시작 선택,,Redefine keys sequence_goto_start_selection string
-RedefineKeys_sequence_goto_end_selection,Sequence Goto End Selection,시퀀스 이동 종료 선택,,Redefine keys sequence_goto_end_selection string
-RedefineKeys_sequence_expand_tracks_selection,Sequence Expand Tracks Selection,시퀀스 트랙 확장 선택,,Redefine keys sequence_expand_tracks_selection string
-RedefineKeys_sequence_expand_tracks_all,Sequence Expand Tracks All,시퀀스 트랙 확장 모두,,Redefine keys sequence_expand_tracks_all string
+RedefineKeys_Go To Start,Sequence Goto Start,시퀀스 이동 시작,,Redefine keys sequence_goto_start string
+RedefineKeys_Go To End,Sequence Goto End,시퀀스 이동 종료,,Redefine keys sequence_goto_end string
+RedefineKeys_Go To Start of Selection,Sequence Goto Start Selection,시퀀스 이동 시작 선택,,Redefine keys sequence_goto_start_selection string
+RedefineKeys_Go To End of Selection,Sequence Goto End Selection,시퀀스 이동 종료 선택,,Redefine keys sequence_goto_end_selection string
+RedefineKeys_Expand Selected Tracks,Sequence Expand Tracks Selection,시퀀스 트랙 확장 선택,,Redefine keys sequence_expand_tracks_selection string
+RedefineKeys_Expand All Tracks,Sequence Expand Tracks All,시퀀스 트랙 확장 모두,,Redefine keys sequence_expand_tracks_all string
 RedefineKeys_sequence_select_track_above,Sequence Select Track Above,시퀀스 트랙 위 선택,,Redefine keys sequence_select_track_above string
 RedefineKeys_sequence_select_track_below,Sequence Select Track Below,시퀀스 트랙 아래 선택,,Redefine keys sequence_select_track_below string
 RedefineKeys_sequence_select_track_above_additive,Sequence Select Track Above Additive,시퀀스 트랙 위 선택 첨가,,Redefine keys sequence_select_track_above_additive string
@@ -7402,49 +7399,48 @@ RedefineKeys_sequence_new_clipping_mask,Sequence New Clipping Mask,시퀀스 새
 RedefineKeys_sequence_new_group,Sequence New Group,시퀀스 새 그룹,,Redefine keys sequence_new_group string
 RedefineKeys_sequence_new_broadcast_message,Sequence New Broadcast Message,시퀀스 새 브로드캐스트 메시지,,Redefine keys sequence_new_broadcast_message string
 RedefineKeys_sequence_new_moment,Sequence New Moment,시퀀스 새 모멘트,,Redefine keys sequence_new_moment string
-RedefineKeys_sequence_goto_next_event,Sequence Goto Next Event,시퀀스 다음 이벤트로 이동,,Redefine keys sequence_goto_next_event string
-RedefineKeys_sequence_goto_prev_event,Sequence Goto Prev Event,시퀀스 이전 이벤트로 이동,,Redefine keys sequence_goto_prev_event string
+RedefineKeys_Go To Next Event,Sequence Goto Next Event,시퀀스 다음 이벤트로 이동,,Redefine keys sequence_goto_next_event string
+RedefineKeys_Go To Previous Event,Sequence Goto Prev Event,시퀀스 이전 이벤트로 이동,,Redefine keys sequence_goto_prev_event string
 RedefineKeys_tool_translate,Tool Translate,도구 번역,,Redefine keys tool_translate string
 RedefineKeys_tool_scale,Tool Scale,도구 스케일,,Redefine keys tool_scale string
 RedefineKeys_tool_rotate,Tool Rotate,도구 회전,,Redefine keys tool_rotate string
 RedefineKeys_tool_origin,Tool Origin,도구 원점,,Redefine keys tool_origin string
 RedefineKeys_Play,Play,재생,,Redefine keys Play string
 RedefineKeys_Toggle Grid,Toggle Grid,그리드 토글,,Redefine keys Toggle Grid string
-RedefineKeys_GoTo,Go To,이동,,Redefine keys GoTo string
-RedefineKeys_OpenWorkspaceOverview,Open Workspace Overview,작업영역 개요 열기,,Redefine keys OpenWorkspaceOverview string
+RedefineKeys_Open GoTo Menu,Go To,이동,,Redefine keys GoTo string
+RedefineKeys_Open Workspace Overview,Open Workspace Overview,작업영역 개요 열기,,Redefine keys OpenWorkspaceOverview string
 RedefineKeys_Run,Run,실행,,Redefine keys Run string
 RedefineKeys_Debug,Debug,디버그,,Redefine keys Debug string
 RedefineKeys_Clean,Clean,삭제,,Redefine keys Clean string
-RedefineKeys_Create Executable,Create Executable,실행 파일 생성,,Redefine keys Create Executable string
+RedefineKeys_Package,Create Executable,실행 파일 생성,,Redefine keys Create Executable string
 RedefineKeys_open_debug_info,Open Debug Info,디버그 정보 열기,,Redefine keys open_debug_info string
 RedefineKeys_run_memory_info,Run Memory Info,메모리 정보 실행,,Redefine keys run_memory_info string
-RedefineKeys_open_search_replace,Open Search Replace,검색 바꾸기 열기,,Redefine keys open_search_replace string
+RedefineKeys_Open Search and Replace,Open Search Replace,검색 바꾸기 열기,,Redefine keys open_search_replace string
 RedefineKeys_open_search_in_script_find,Open Search In Script Find,스크립트 찾기에서 검색 열기,,Redefine keys open_search_in_script_find string
 RedefineKeys_open_search_in_script_replace,Open Search In Script Replace,스크립트 바꾸기에서 검색 열기,,Redefine keys open_search_in_script_replace string
-RedefineKeys_open_prefs_tree,Open Prefs Tree,성능 트리 열기,,Redefine keys open_prefs_tree string
-RedefineKeys_set_bookmark_1,Set Bookmark 1,즐겨찾기 1 설정,,Redefine keys set_bookmark_1 string
-RedefineKeys_set_bookmark_2,Set Bookmark 2,즐겨찾기 2 설정,,Redefine keys set_bookmark_2 string
-RedefineKeys_set_bookmark_3,Set Bookmark 3,즐겨찾기 3 설정,,Redefine keys set_bookmark_3 string
-RedefineKeys_set_bookmark_4,Set Bookmark 4,즐겨찾기 4 설정,,Redefine keys set_bookmark_4 string
-RedefineKeys_set_bookmark_5,Set Bookmark 5,즐겨찾기 5 설정,,Redefine keys set_bookmark_5 string
-RedefineKeys_set_bookmark_6,Set Bookmark 6,즐겨찾기 6 설정,,Redefine keys set_bookmark_6 string
-RedefineKeys_set_bookmark_7,Set Bookmark 7,즐겨찾기 7 설정,,Redefine keys set_bookmark_7 string
-RedefineKeys_set_bookmark_8,Set Bookmark 8,즐겨찾기 8 설정,,Redefine keys set_bookmark_8 string
-RedefineKeys_set_bookmark_9,Set Bookmark 9,즐겨찾기 9 설정,,Redefine keys set_bookmark_9 string
-RedefineKeys_set_bookmark_0,Set Bookmark 0,즐겨찾기 0 설정,,Redefine keys set_bookmark_0 string
-RedefineKeys_get_bookmark_1,Get Bookmark 1,즐겨찾기 1 가져오기,,Redefine keys get_bookmark_1 string
-RedefineKeys_get_bookmark_2,Get Bookmark 2,즐겨찾기 2 가져오기,,Redefine keys get_bookmark_2 string
-RedefineKeys_get_bookmark_3,Get Bookmark 3,즐겨찾기 3 가져오기,,Redefine keys get_bookmark_3 string
-RedefineKeys_get_bookmark_4,Get Bookmark 4,즐겨찾기 4 가져오기,,Redefine keys get_bookmark_4 string
-RedefineKeys_get_bookmark_5,Get Bookmark 5,즐겨찾기 5 가져오기,,Redefine keys get_bookmark_5 string
-RedefineKeys_get_bookmark_6,Get Bookmark 6,즐겨찾기 6 가져오기,,Redefine keys get_bookmark_6 string
-RedefineKeys_get_bookmark_7,Get Bookmark 7,즐겨찾기 7 가져오기,,Redefine keys get_bookmark_7 string
-RedefineKeys_get_bookmark_8,Get Bookmark 8,즐겨찾기 8 가져오기,,Redefine keys get_bookmark_8 string
-RedefineKeys_get_bookmark_9,Get Bookmark 9,즐겨찾기 9 가져오기,,Redefine keys get_bookmark_9 string
-RedefineKeys_get_bookmark_0,Get Bookmark 0,즐겨찾기 0 가져오기,,Redefine keys get_bookmark_0 string
+RedefineKeys_Set Bookmark 1,Set Bookmark 1,즐겨찾기 1 설정,,Redefine keys Set Bookmark 1 string
+RedefineKeys_Set Bookmark 2,Set Bookmark 2,즐겨찾기 2 설정,,Redefine keys Set Bookmark 2 string
+RedefineKeys_Set Bookmark 3,Set Bookmark 3,즐겨찾기 3 설정,,Redefine keys Set Bookmark 3 string
+RedefineKeys_Set Bookmark 4,Set Bookmark 4,즐겨찾기 4 설정,,Redefine keys Set Bookmark 4 string
+RedefineKeys_Set Bookmark 5,Set Bookmark 5,즐겨찾기 5 설정,,Redefine keys Set Bookmark 5 string
+RedefineKeys_Set Bookmark 6,Set Bookmark 6,즐겨찾기 6 설정,,Redefine keys Set Bookmark 6 string
+RedefineKeys_Set Bookmark 7,Set Bookmark 7,즐겨찾기 7 설정,,Redefine keys Set Bookmark 7 string
+RedefineKeys_Set Bookmark 8,Set Bookmark 8,즐겨찾기 8 설정,,Redefine keys Set Bookmark 8 string
+RedefineKeys_Set Bookmark 9,Set Bookmark 9,즐겨찾기 9 설정,,Redefine keys Set Bookmark 9 string
+RedefineKeys_Set Bookmark 0,Set Bookmark 0,즐겨찾기 0 설정,,Redefine keys Set Bookmark 0 string
+RedefineKeys_Get Bookmark 1,Get Bookmark 1,즐겨찾기 1 가져오기,,Redefine keys Get Bookmark 1 string
+RedefineKeys_Get Bookmark 2,Get Bookmark 2,즐겨찾기 2 가져오기,,Redefine keys Get Bookmark 2 string
+RedefineKeys_Get Bookmark 3,Get Bookmark 3,즐겨찾기 3 가져오기,,Redefine keys Get Bookmark 3 string
+RedefineKeys_Get Bookmark 4,Get Bookmark 4,즐겨찾기 4 가져오기,,Redefine keys Get Bookmark 4 string
+RedefineKeys_Get Bookmark 5,Get Bookmark 5,즐겨찾기 5 가져오기,,Redefine keys Get Bookmark 5 string
+RedefineKeys_Get Bookmark 6,Get Bookmark 6,즐겨찾기 6 가져오기,,Redefine keys Get Bookmark 6 string
+RedefineKeys_Get Bookmark 7,Get Bookmark 7,즐겨찾기 7 가져오기,,Redefine keys Get Bookmark 7 string
+RedefineKeys_Get Bookmark 8,Get Bookmark 8,즐겨찾기 8 가져오기,,Redefine keys Get Bookmark 8 string
+RedefineKeys_Get Bookmark 9,Get Bookmark 9,즐겨찾기 9 가져오기,,Redefine keys Get Bookmark 9 string
+RedefineKeys_Get Bookmark 0,Get Bookmark 0,즐겨찾기 0 가져오기,,Redefine keys Get Bookmark 0 string
 RedefineKeys_manage_plugins,Manage Plugins,플러그인 관리,,Redefine keys manage_plugins string
-RedefineKeys_open_inspector,Open Inspector,검사기 열기,,Redefine keys open_inspector string
-RedefineKeys_open_asset_browser,Open Asset Browser,에셋 브라우저 열기,,Redefine keys open_asset_browser string
+RedefineKeys_Open Inspector,Open Inspector,검사기 열기,,Redefine keys open_inspector string
+RedefineKeys_Open Asset Browser,Open Asset Browser,에셋 브라우저 열기,,Redefine keys open_asset_browser string
 RedefineKeys_do_nothing_rewrite,Do Nothing Rewrite,아무 것도 안 함 덮어쓰기,,Redefine keys do_nothing_rewrite string
 RedefineKeys_enumerate_references,Enumerate References,참조 열거,,Redefine keys enumerate_references string
 RedefineKeys_find_all_references,Find All References,모든 참조 찾기,,Redefine keys find_all_references string
@@ -7470,10 +7466,10 @@ RedefineKeys_Add Frame,Add Frame,프레임 추가,,Redefine keys Add Frame strin
 RedefineKeys_insert_frame,Insert Frame,프레임 삽입,,Redefine keys insert_frame string
 RedefineKeys_backspace_delete,Backspace Delete,Backspace 삭제,,Redefine keys backspace_delete string
 RedefineKeys_import_files,Import Files,파일 가져오기,,Redefine keys import_files string
-RedefineKeys_move_selection_up,Move Selection Up,선택 항목 위로 이동,,Redefine keys move_selection_up string
-RedefineKeys_move_selection_down,Move Selection Down,선택 항목 아래로 이동,,Redefine keys move_selection_down string
-RedefineKeys_move_selection_left,Move Selection Left,선택 항목 왼쪽으로 이동,,Redefine keys move_selection_left string
-RedefineKeys_move_selection_right,Move Selection Right,선택 항목 오른쪽으로 이동,,Redefine keys move_selection_right string
+RedefineKeys_Move Selection Up,Move Selection Up,선택 항목 위로 이동,,Redefine keys move_selection_up string
+RedefineKeys_Move Selection Down,Move Selection Down,선택 항목 아래로 이동,,Redefine keys move_selection_down string
+RedefineKeys_Move Selection Left,Move Selection Left,선택 항목 왼쪽으로 이동,,Redefine keys move_selection_left string
+RedefineKeys_Move Selection Right,Move Selection Right,선택 항목 오른쪽으로 이동,,Redefine keys move_selection_right string
 RedefineKeys_import_from_strip,Import From Strip,스트립에서 가져오기,,Redefine keys import_from_strip string
 RedefineKeys_increment_brush_size,Increment Brush Size,브러시 크기 증가,,Redefine keys increment_brush_size string
 RedefineKeys_increment_brush_size2,Increment Brush Size2,브러시 크기2 증가,,Redefine keys increment_brush_size2 string
@@ -7486,10 +7482,10 @@ RedefineKeys_Open Layer View,Open Layer View,레이어 보기 열기,,Redefine k
 RedefineKeys_cut_selection_win,Cut Selection Win,잘라내기 선택 항목 획득,,Redefine keys cut_selection_win string
 RedefineKeys_copy_selection_win,Copy Selection Win,복사 선택 항목 획득,,Redefine keys copy_selection_win string
 RedefineKeys_paste_selection_Win,Paste Selection Win,붙여넣기 선택 항목 획득,,Redefine keys paste_selection_Win string
-RedefineKeys_Mirror as Individuals,Mirror As Individuals,개인으로 미러링,,Redefine keys Mirror as Individuals string
-RedefineKeys_Mirror as Group,Mirror As Group,그룹으로 미러링,,Redefine keys Mirror as Group string
-RedefineKeys_Flip as Individuals,Flip As Individuals,개인으로 뒤집기,,Redefine keys Flip as Individuals string
-RedefineKeys_Flip as Group,Flip As Group,그룹으로 뒤집기,,Redefine keys Flip as Group string
+RedefineKeys_Mirror As Individuals,Mirror As Individuals,개인으로 미러링,,Redefine keys Mirror as Individuals string
+RedefineKeys_Mirror As Group,Mirror As Group,그룹으로 미러링,,Redefine keys Mirror as Group string
+RedefineKeys_Flip As Individuals,Flip As Individuals,개인으로 뒤집기,,Redefine keys Flip as Individuals string
+RedefineKeys_Flip As Group,Flip As Group,그룹으로 뒤집기,,Redefine keys Flip as Group string
 RedefineKeys_toggle_grid,Toggle Grid,그리드 토글,,Redefine keys toggle_grid string
 RedefineKeys_Add Moment,Add Moment,모멘트 추가,,Redefine keys Add Moment string
 RedefineKeys_cut_moments_win,Cut Moments Win,잘라내기 모멘트 획득,,Redefine keys cut_moments_win string
@@ -7520,7 +7516,7 @@ RedefineKeys_insert_sprite_frame,Insert Sprite Frame,스프라이트 프레임 �
 RedefineKeys_copy_frames_win,Copy Frames Win,복사 프레임 획득,,Redefine keys copy_frames_win string
 RedefineKeys_paste_frames_win,Paste Frames Win,붙여넣기 프레임 획득,,Redefine keys paste_frames_win string
 RedefineKeys_cut_frames_win,Cut Frames Win,잘라내기 프레임 획득,,Redefine keys cut_frames_win string
-RedefineKeys_Pan To Path,Pan To Path,경로로 이동,,Redefine keys Pan To Path string
+RedefineKeys_Pan To,Pan To Path,경로로 이동,,Redefine keys Pan To Path string
 RedefineKeys_Reverse Path,Reverse Path,역경로,,Redefine keys Reverse Path string
 RedefineKeys_Mirror,Mirror,미러,,Redefine keys Mirror string
 RedefineKeys_Flip,Flip,뒤집기,,Redefine keys Flip string
@@ -7536,10 +7532,6 @@ RedefineKeys_debugger_continue,Debugger Continue,디버거 계속,,Redefine keys
 RedefineKeys_debugger_step_into,Debugger Step Into,디버거 단계 다음으로,,Redefine keys debugger_step_into string
 RedefineKeys_debugger_step_over,Debugger Step Over,디버거 단계 다음을 넘어,,Redefine keys debugger_step_over string
 RedefineKeys_debugger_step_out,Debugger Step Out,디버거 단계 다음 외로,,Redefine keys debugger_step_out string
-RedefineKeys_ab_arrange_up,Ab Arrange Up,Ab 위로 정렬,,Redefine keys ab_arrange_up string
-RedefineKeys_ab_arrange_down,Ab Arrange Down,Ab 아래로 정렬,,Redefine keys ab_arrange_down string
-RedefineKeys_ab_arrange_top,Ab Arrange Top,Ab 상단 정렬,,Redefine keys ab_arrange_top string
-RedefineKeys_ab_arrange_bottom,Ab Arrange Bottom,Ab 하단 정렬,,Redefine keys ab_arrange_bottom string
 RedefineKeys_ac_delete_bksp,Ac Delete Bksp,Ac Bksp 삭제,,Redefine keys ac_delete_bksp string
 RedefineKeys_ace_cancel,Ace Cancel,Ace 취소,,Redefine keys ace_cancel string
 RedefineKeys_ac_path_display,Ac Path Display,Ac 경로 표시,,Redefine keys ac_path_display string
@@ -7717,7 +7709,7 @@ RedefineKeys_ObjectEditor_InheritParentEvent,Object Editor Inherit Parent Event,
 RedefineKeys_ObjectEditor_OverrideParentEvent,Object Editor Override Parent Event,객체 에디터 상위 이벤트 재정의,,Redefine keys ObjectEditor_OverrideParentEvent string
 RedefineKeys_SplineEditor_DeletePoints,Spline Editor Delete Points,스플라인 에디터 포인트 삭제,,Redefine keys SplineEditor_DeletePoints string
 RedefineKeys_PathEditor_ContextMenu_EditPoint,Path Editor Context Menu Edit Point,경로 에디터 컨텍스트 메뉴 포인트 편집,,Redefine keys PathEditor_ContextMenu_EditPoint string
-RedefineKeys_Generate Tile Map,Generate Tile Map,타일 맵 생성,,Redefine keys Generate Tile Map string
+RedefineKeys_Generate Tile Map From Image,Generate Tile Map,타일 맵 생성,,Redefine keys Generate Tile Map string
 RedefineKeys_RoomEditor_DeleteLayer,Room Editor Delete Layer,룸 에디터 레이어 삭제,,Redefine keys RoomEditor_DeleteLayer string
 RedefineKeys_RoomEditor_AddRootLayer,Room Editor Add Root Layer,룸 에디터 루트 레이어 추가,,Redefine keys RoomEditor_AddRootLayer string
 RedefineKeys_RoomEditor_AddSubLayer,Room Editor Add Sub Layer,룸 에디터 하위 레이어 추가,,Redefine keys RoomEditor_AddSubLayer string
@@ -7764,11 +7756,11 @@ RedefineKeys_resize_image,Resize Image,이미지 크기 조정,,Redefine keys re
 RedefineKeys_play_preview,Play Preview,재생 미리보기,,Redefine keys play_preview string
 RedefineKeys_Jump To End,Jump To End,끝으로 이동,,Redefine keys Jump To End string
 RedefineKeys_Jump To Start,Jump To Start,시작으로 이동,,Redefine keys Jump To Start string
-RedefineKeys_add_new_background_layer,Add New Background Layer,새 배경 레이어 추가,,Redefine keys add_new_background_layer string
-RedefineKeys_add_new_tile_layer,Add New Tile Layer,새 타일 레이어 추가,,Redefine keys add_new_tile_layer string
-RedefineKeys_add_new_path_layer,Add New Path Layer,새 경로 레이어 추가,,Redefine keys add_new_path_layer string
-RedefineKeys_add_new_asset_layer,Add New Asset Layer,새 에셋 레이어 추가,,Redefine keys add_new_asset_layer string
-RedefineKeys_add_new_folder_layer,Add New Folder Layer,새 폴더 레이어 추가,,Redefine keys add_new_folder_layer string
+RedefineKeys_Create Background Layer,Add New Background Layer,새 배경 레이어 추가,,Redefine keys add_new_background_layer string
+RedefineKeys_Create Tile Layer,Add New Tile Layer,새 타일 레이어 추가,,Redefine keys add_new_tile_layer string
+RedefineKeys_Create Path Layer,Add New Path Layer,새 경로 레이어 추가,,Redefine keys add_new_path_layer string
+RedefineKeys_Create Asset Layer,Add New Asset Layer,새 에셋 레이어 추가,,Redefine keys add_new_asset_layer string
+RedefineKeys_Create Layer Folder,Add New Folder Layer,새 폴더 레이어 추가,,Redefine keys add_new_folder_layer string
 RedefineKeys_select_PaintbrushTool,Select Paintbrush Tool,페인트브러시 도구 선택,,Redefine keys select_PaintbrushTool string
 RedefineKeys_select_EraseTool,Select Erase Tool,지우기 도구 선택,,Redefine keys select_EraseTool string
 RedefineKeys_select_FillTool,Select Fill Tool,채우기 도구 선택,,Redefine keys select_FillTool string
@@ -7802,11 +7794,11 @@ RedefineKeys_open_variable_definitions,Open Variable Definitions,변수 정의 �
 RedefineKeys_add_event,Add Event,이벤트 추가,,Redefine keys add_event string
 RedefineKeys_select_parent,Select Parent,상위 항목 선택,,Redefine keys select_parent string
 RedefineKeys_edit_parent,Edit Parent,상위 항목 편집,,Redefine keys edit_parent string
-RedefineKeys_add_child,Add Child,하위 항목 추가,,Redefine keys add_child string
+RedefineKeys_Add Child,Add Child,하위 항목 추가,,Redefine keys add_child string
 RedefineKeys_modify_collision_shape,Modify Collision Shape,충돌 모양 수정,,Redefine keys modify_collision_shape string
 RedefineKeys_physics_toggle_grid,Physics Toggle Grid,물리 그리드 토글,,Redefine keys physics_toggle_grid string
 RedefineKeys_physics_snap_to_grid,Physics Snap To Grid,물리 그리드로 맞추기,,Redefine keys physics_snap_to_grid string
-RedefineKeys_add_variable,Add Variable,변수 추가,,Redefine keys add_variable string
+RedefineKeys_Add Variable,Add Variable,변수 추가,,Redefine keys add_variable string
 RedefineKeys_add_new_range,Add New Range,새 범위 추가,,Redefine keys add_new_range string
 RedefineKeys_delete_selected_range,Delete Selected Range,선택한 범위 삭제,,Redefine keys delete_selected_range string
 RedefineKeys_open_options,Open Options,옵션 열기,,Redefine keys open_options string
@@ -7828,13 +7820,13 @@ RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,자동 타�
 RedefineKeys_autotile_delete_set,Autotile Delete Set,자동 타일 세트 삭제,,Redefine keys autotile_delete_set string
 RedefineKeys_autotile_show_guide,Autotile Show Guide,자동 타일 가이드 표시,,Redefine keys autotile_show_guide string
 RedefineKeys_add_curve,Add Curve,곡선 추가,,Redefine keys add_curve string
-RedefineKeys_Zoom Fit,Zoom Fit,확대/축소 맞추기,,Redefine keys Zoom Fit string
+RedefineKeys_Zoom Centre Fit,Zoom Fit,확대/축소 맞추기,,Redefine keys Zoom Fit string
 RedefineKeys_set_range,Set Range,범위 설정,,Redefine keys set_range string
-RedefineKeys_open_shift_path,Open Shift Path,이동 경로 열기,,Redefine keys open_shift_path string
-RedefineKeys_shift_left,Shift Left,왼쪽으로 이동,,Redefine keys shift_left string
-RedefineKeys_shift_right,Shift Right,오른쪽으로 이동,,Redefine keys shift_right string
-RedefineKeys_shift_up,Shift Up,위로 이동,,Redefine keys shift_up string
-RedefineKeys_shift_down,Shift Down,아래로 이동,,Redefine keys shift_down string
+RedefineKeys_Shift Path,Open Shift Path,이동 경로 열기,,Redefine keys open_shift_path string
+RedefineKeys_Shift Path Left,Shift Left,왼쪽으로 이동,,Redefine keys shift_left string
+RedefineKeys_Shift Path Right,Shift Right,오른쪽으로 이동,,Redefine keys shift_right string
+RedefineKeys_Shift Path Up,Shift Up,위로 이동,,Redefine keys shift_up string
+RedefineKeys_Shift Path Down,Shift Down,아래로 이동,,Redefine keys shift_down string
 RedefineKeys_load_sound,Load Sound,사운드 로드,,Redefine keys load_sound string
 RedefineKeys_mute_sound,Mute Sound,사운드 음소거,,Redefine keys mute_sound string
 RedefineKeys_play_sound,Play Sound,사운드 재생,,Redefine keys play_sound string
@@ -7845,18 +7837,17 @@ RedefineKeys_mute_all,Mute All,모두 음소거,,Redefine keys mute_all string
 RedefineKeys_play_all,Play All,모두 재생,,Redefine keys play_all string
 RedefineKeys_loop_all,Loop All,모두 루프,,Redefine keys loop_all string
 RedefineKeys_rewind_all,Rewind All,모두 되감기,,Redefine keys rewind_all string
-RedefineKeys_create_asset,Create Asset,에셋 생성,,Redefine keys create_asset string
+RedefineKeys_Create Asset,Create Asset,에셋 생성,,Redefine keys create_asset string
 RedefineKeys_confirm_create_asset,Confirm Create Asset,에셋 생성 확인,,Redefine keys confirm_create_asset string
 RedefineKeys_ide_toolbar_help,Ide Toolbar Help,Ide 도구 모음 도움말,,Redefine keys ide_toolbar_help string
 RedefineKeys_ide_toolbar_collapsedocks,Ide Toolbar Collapsedocks,Ide 도구 모음 도크 축소,,Redefine keys ide_toolbar_collapsedocks string
 RedefineKeys_RestartGame,Restart Game,게임 다시 시작,,Redefine keys RestartGame string
-RedefineKeys_MultiSelect,Multi Select,다중 선택,,Redefine keys MultiSelect string
-RedefineKeys_Zoom,Zoom,확대/축소,,Redefine keys Zoom string
-RedefineKeys_Pan,Pan,이동,,Redefine keys Pan string
-RedefineKeys_SelectRange,Select Range,범위 선택,,Redefine keys SelectRange string
-RedefineKeys_PreciseItemPlacement,Precise Item Placement,정확한 항목 배치,,Redefine keys PreciseItemPlacement string
-RedefineKeys_PaintWithResource,Paint With Resource,리소스로 페인트,,Redefine keys PaintWithResource string
-RedefineKeys_SelectFromAnyLayer,Select From Any Layer,모든 레이어에서 선택,,Redefine keys SelectFromAnyLayer string
+RedefineKeys_Select Multiple,Multi Select,다중 선택,,Redefine keys MultiSelect string
+RedefineKeys_Pan Area Zoom,Zoom,확대/축소,,Redefine keys Zoom string
+RedefineKeys_Pan Area Pan,Pan,이동,,Redefine keys Pan string
+RedefineKeys_Select Range,Select Range,범위 선택,,Redefine keys SelectRange string
+RedefineKeys_Paint With Resource,Paint With Resource,리소스로 페인트,,Redefine keys PaintWithResource string
+RedefineKeys_Select From Any Layer,Select From Any Layer,모든 레이어에서 선택,,Redefine keys SelectFromAnyLayer string
 RedefineKeys_Arc Move Control Point A,Arc Move Control Point A,원호 이동 제어 포인트 A,,Redefine keys Arc Move Control Point A string
 RedefineKeys_Arc Move Control Point B,Arc Move Control Point B,원호 이동 제어 포인트 B,,Redefine keys Arc Move Control Point B string
 RedefineKeys_Snap Tool Modifier,Snap Tool Modifier,맞추기 도구 수정자,,Redefine keys Snap Tool Modifier string
@@ -7864,12 +7855,12 @@ RedefineKeys_ColourReplaceWithAlpha,Colour Replace With Alpha,알파로 색상 �
 RedefineKeys_Draw Regular Shape,Draw Regular Shape,일반 모양 그리기,,Redefine keys Draw Regular Shape string
 RedefineKeys_Draw Centred Shape,Draw Centred Shape,가운데에 위치한 모양 그리기,,Redefine keys Draw Centred Shape string
 RedefineKeys_FillToolTileWithBrush,Fill Tool Tile With Brush,브러시로 도구 타일 채우기,,Redefine keys FillToolTileWithBrush string
-RedefineKeys_AddToSelection,Add To Selection,선택 항목에 추가,,Redefine keys AddToSelection string
-RedefineKeys_RemoveFromSelection,Remove From Selection,선택 항목에서 제거,,Redefine keys RemoveFromSelection string
+RedefineKeys_Add Selection,Add To Selection,선택 항목에 추가,,Redefine keys AddToSelection string
+RedefineKeys_Remove Selection,Remove From Selection,선택 항목에서 제거,,Redefine keys RemoveFromSelection string
 RedefineKeys_OpenColourPanelOnSelect,Open Colour Panel On Select,선택 항목에서 색상 패널 열기,,Redefine keys OpenColourPanelOnSelect string
-RedefineKeys_RotatePath,Rotate Path,경로 회전,,Redefine keys RotatePath string
-RedefineKeys_TranslatePath,Translate Path,경로 변환,,Redefine keys TranslatePath string
-RedefineKeys_ScalePath,Scale Path,경로 스케일,,Redefine keys ScalePath string
+RedefineKeys_Rotate Path,Rotate Path,경로 회전,,Redefine keys RotatePath string
+RedefineKeys_Translate Path,Translate Path,경로 변환,,Redefine keys TranslatePath string
+RedefineKeys_Scale Path,Scale Path,경로 스케일,,Redefine keys ScalePath string
 RedefineKeys_DopeSheetPanel_ScrollCommand,Dope Sheet Panel Scroll Command,도프 시트 패널 스크롤 명령,,Redefine keys DopeSheetPanel_ScrollCommand string
 RedefineKeys_feather_open_quickfix_menu,Feather Open Quickfix Menu,깃털 열기 빠른 수정 메뉴,,Redefine keys feather_open_quickfix_menu string
 RedefineKeys_TileFlipTool,Tile Flip Tool,타일 ​​뒤집기 도구,,Redefine keys TileFlipTool string
@@ -7884,9 +7875,9 @@ RedefineKeys_TileRotateTool,Tile Rotate Tool,타일 회전 도구,,Redefine keys
 RedefineKeys_TileSelectionTool,Tile Selection Tool,타일 선택 도구,,Redefine keys TileSelectionTool string
 RedefineKeys_AutoTileTool,Auto Tile Tool,자동 타일 도구,,Redefine keys AutoTileTool string
 RedefineKeys_PaintBrush,Room Editor Paint Brush,룸 에디터 페인트 브러시,,Redefine keys RoomEditorPaintBrush string
-RedefineKeys_ActivateTileSelectWindow,Activate Tile Select Window,타일 선택 윈도우 활성화,,Redefine keys ActivateTileSelectWindow string
+RedefineKeys_Open Tile Selection Window,Activate Tile Select Window,타일 선택 윈도우 활성화,,Redefine keys ActivateTileSelectWindow string
 RedefineKeys_InvertSelection,Invert Selection,선택 항목 반전,,Redefine keys InvertSelection string
-RedefineKeys_ToggleMacroEditingMode,Toggle Macro Editing Mode,매크로 편집 모드 토글,,Redefine keys ToggleMacroEditingMode string
+RedefineKeys_Toggle Macro Editing Mode,Toggle Macro Editing Mode,매크로 편집 모드 토글,,Redefine keys ToggleMacroEditingMode string
 RedefineKeys_Increase Brush Size,Increase Brush Size,브러시 크기 증가,,Redefine keys Increase Brush Size string
 RedefineKeys_Increase_Brush Size,Increase Brush Size,브러시 크기 증가,,Redefine keys Increase_Brush Size string
 RedefineKeys_Decrease Brush Size,Decrease Brush Size,브러시 크기 감소,,Redefine keys Decrease Brush Size string
@@ -7897,8 +7888,8 @@ RedefineKeys_TextEditor,Text Editor,텍스트 에디터,,Redefine keys location 
 RedefineKeys_SequenceEditor,Sequence Editor,시퀀스 이벤트,,Redefine keys location entry
 RedefineKeys_ImageEditor,Image Editor,이미지 에디터,,Redefine keys location entry
 RedefineKeys_RoomEditor,Room Editor,룸 에디터,,Redefine keys location entry
-RedefineKeys_TimelineEditor,Timeline Editor,타임라인 에디터,,Redefine keys location entry
-RedefineKeys_TilesetEditor,Tileset Editor,타일세트 에디터,,Redefine keys location entry
+RedefineKeys_TimeLineEditor,Timeline Editor,타임라인 에디터,,Redefine keys location entry
+RedefineKeys_TileSetEditor,Tileset Editor,타일세트 에디터,,Redefine keys location entry
 RedefineKeys_SpriteEditor,Sprite Editor,스프라이트 에디터,,Redefine keys location entry
 RedefineKeys_PathEditor,Path Editor,경로 에디터,,Redefine keys location entry
 RedefineKeys_ObjectEditor,Object Editor,객체 에디터,,Redefine keys location entry
@@ -7909,6 +7900,9 @@ RedefineKeys_ContextMenu,Context Menu,컨텍스트 메뉴,,Redefine keys locatio
 RedefineKeys_FontEditor,Font Editor,글꼴 에디터,,Redefine keys location entry
 RedefineKeys_SoundEditor,Sound Editor,사운드 에디터,,Redefine keys location entry
 RedefineKeys_SoundMixer,Sound Mixer,사운드 믹서,,Redefine keys location entry
+RedefineKeys_Debugger,Debugger,디버거,,Redefine keys location entry
+RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
+RedefineKeys_Workspace,Workspace,작업영역,,Redefine keys location entry
 RedefineKeys_Keys,Keys,키,,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,롤백 시작,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,롤백 이벤트,,Other event subtype
