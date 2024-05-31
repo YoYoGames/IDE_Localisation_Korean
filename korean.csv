@@ -7814,7 +7814,6 @@ RedefineKeys_tile_line,Tile Line,타일 선,,Redefine keys tile_line string
 RedefineKeys_tile_rect,Tile Rect,타일 직사각형,,Redefine keys tile_rect string
 RedefineKeys_tile_select,Tile Select,타일 선택,,Redefine keys tile_select string
 RedefineKeys_tile_autotile,Tile Autotile,타일 자동 타일,,Redefine keys tile_autotile string
-RedefineKeys_Rotate,Rotate,회전,,Redefine keys Rotate string
 RedefineKeys_autotile_add_full_set,Autotile Add Full Set,자동 타일 전체 세트 추가,,Redefine keys autotile_add_full_set string
 RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,자동 타일 전환 세트 추가,,Redefine keys autotile_add_transition_set string
 RedefineKeys_autotile_delete_set,Autotile Delete Set,자동 타일 세트 삭제,,Redefine keys autotile_delete_set string
@@ -7903,7 +7902,7 @@ RedefineKeys_SoundMixer,Sound Mixer,사운드 믹서,,Redefine keys location ent
 RedefineKeys_Debugger,Debugger,디버거,,Redefine keys location entry
 RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
 RedefineKeys_Workspace,Workspace,작업영역,,Redefine keys location entry
-RedefineKeys_Keys,Keys,키,,Redefine keys Keys label
+RedefineKeys_Keys,Keys{0},키{0},,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,롤백 시작,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,롤백 이벤트,,Other event subtype
 Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
@@ -8054,4 +8053,4 @@ Error_ProjectLoadPermissions,Could not load project at specified path: {0}.\nYou
 Feather_GM2017Help,GM2017 Message Severity must not be set to Ignore for these to take effect,효력을 가지기 위해서는 GM2017 메시지 심각도를 무시로 설정해서는 안 됩니다,,GM2017 Message Severity must not be set to Ignore for these to take effect
 DeviceManager_Name_Already_Taken,A device with this name has already been created.,이 이름을 가진 장치가 이미 생성되었습니다.,,Device manager name already taken error message
 GMStdTime,Time,시간,,DnD library argument label
-RedefineKeys_Command,Command,커맨드,,Redefine keys Command label
+RedefineKeys_Command,Command{0},커맨드{0},,Redefine keys Command label
